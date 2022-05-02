@@ -1,5 +1,8 @@
 # Address Resolution Protocol (ARP)
-<pre>📖 ARP is a solution to find corresponding LAN (MAC) addresses of one or more network interfaces from an IP.</pre>
+```
+📖 ARP is a solution to find corresponding LAN (MAC) addresses of one or more network interfaces from an IP.
+```
+## Workflow
 ```mermaid
 sequenceDiagram
 participant A
@@ -19,4 +22,11 @@ opt Not in A's ARP cache
 end
 Note over A: sends data to found addresses or drops.
 
+```
+## Other applications
+Failover and detecting sniffers.
+## Commands
+#### Show ARP cache
+```sh
+arp -a
 ```
