@@ -1,7 +1,7 @@
 # Neighbour Discovery for IPv6 (ND)
 ```
-📖 ND is a protocol for IPv6 nodes in the same link to discover each other (including routers) about
-presence, address, and reaching path.
+📖 ND is a protocol for IPv6 same-link nodes to discover each other (including routers) about presence, address,
+and reaching path.
 ```
 ## Router discovery
 ### Ways
@@ -50,5 +50,4 @@ Unsolicited node ->> Neighbour node: publish Neighbour Advertisement message
 #### Neighbour Solicitation
 #### Neighbour Advertisement
 ## References
-- [RFC 4861 - Neighbour Discovery for IPv6](https://datatracker.ietf.org/doc/html/rfc4861.html)
-- [RFC 8504 - IPv6 Node Requirements](https://datatracker.ietf.org/doc/html/rfc8504)
+- [Narten, T., Nordmark, E., Simpson, W., & Soliman, H. (2007). *Neighbor Discovery for IP version 6 (IPv6)*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc4861.html)
