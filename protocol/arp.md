@@ -34,9 +34,10 @@ end
 - Detecting sniffers.
 ## Commands
 #### Show ARP cache
-```sh
-arp -a
-```
+##### Linux
+`ip -s neigh`
+##### Windows/macOS
+`arp -a`
 ## References
 - [Plummer, D. (2012). *An Ethernet Address Resolution Protocol -- or -- Converting Network Protocol Addresses*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc826)
 - [Cheshire, S. (2008). *IPv4 Address Conflict Detection*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc5227)
