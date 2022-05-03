@@ -4,6 +4,7 @@
 (e.g., IP address), often by LAN broadcasts.
 ```
 ## Workflow
+### Broadcast
 ```mermaid
 sequenceDiagram
 participant PacketHolderNode
@@ -28,6 +29,11 @@ opt Destination's LAN address is not found in my ARP cache
 end
 
 ```
+### Unicast
+```
+📖 Before one ARP cache entry is timeout, ARP unicast request to the recorded LAN address is triggered to reduce 
+the heavy multicast one.
+```
 ## Other applications
 - ARP Failover
 - IPv4 Address Conflict Detection (with simple modification)
@@ -39,6 +45,7 @@ end
 ##### Windows/macOS
 `arp -a`
 ## References
-- [Plummer, D. (2012). *An Ethernet Address Resolution Protocol -- or -- Converting Network Protocol Addresses*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc826)
+- [Plummer, D. (1982). *An Ethernet Address Resolution Protocol -- or -- Converting Network Protocol Addresses*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc826)
+- [Braden, R. (Ed.). (1989). *Requirements for Internet Hosts -- Communication Layers*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc1122.html)
 - [Cheshire, S. (2008). *IPv4 Address Conflict Detection*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc5227)
 - [Dordal, P. L. (2022). *An Introduction to Computer Networks*. Loyola University Chicago.](http://intronetworks.cs.luc.edu/)
