@@ -39,5 +39,5 @@ arp -a
 ```
 ## References
 - [Plummer, D. (2012). *An Ethernet Address Resolution Protocol -- or -- Converting Network Protocol Addresses*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc826)
-- [Cheshire, S. (2008). *IPv4 Address Conflict Detection*. Apple Inc.](https://datatracker.ietf.org/doc/html/rfc5227)
+- [Cheshire, S. (2008). *IPv4 Address Conflict Detection*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc5227)
 - [Dordal, P. L. (2022). *An Introduction to Computer Networks*. Loyola University Chicago.](http://intronetworks.cs.luc.edu/)
