@@ -1,8 +1,7 @@
 # Neighbour Discovery for IPv6 (ND)
-```
-📖 ND is a protocol for IPv6 same-link nodes to discover each other (including routers) about presence, address,
-and reaching path.
-```
+<pre>📖 ND is a protocol for IPv6 same-link nodes to discover each other (including routers) about presence, address,
+and reaching path. Indeed, it a combination (with improvements and extensions) of existing protocols such as 
+<a href="arp.md">Address Resolution Protocal (ARP)</a> and Internet Control Message Protocol (ICMP).</pre>
 ## Router discovery
 ### Ways
 #### Pushing by routers
