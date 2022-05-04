@@ -3,6 +3,12 @@
 📖 ARP is a protocol used to find the corresponding LAN address (e.g., Ethernet MAC address) from a protocol address
 (e.g., IP address), often by LAN broadcasts.
 ```
+## Actors
+- Requestor host/interface
+- Other link-local nodes
+- ARP cache
+### ARP cache
+- Often expired after 30s or a few minutes. 
 ## Workflow
 ### Broadcast
 ```mermaid
