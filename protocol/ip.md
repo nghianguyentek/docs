@@ -14,11 +14,17 @@ Fragmentation is a feature to split size-exceeded packets into smaller supported
 ### Interior algorithms
 #### Distance vector
 <pre>
-While exchanging information with their siblings, routers build their forwarding tables periodically using 
-<a href="rip.md">RIP</a> or its enhanced version, <a href="eigrp.md">EIGRP</a>. Usually, small sites use this algorithm.
+While exchanging information with their direct neighbours, routers build their forwarding tables periodically using 
+<a href="rip.md">RIP (Routing Information Protocol)</a> or its enhanced version, <a href="eigrp.md">EIGRP (Enhanced Interior Gateway Routing Protocol</a>. Usually, 
+small sites use this algorithm.
 </pre>
 #### Loop-free distance vector
-##### Destination-sequenced distance vector (DSDV) 
+##### Destination-sequenced distance vector (DSDV)
+- Destination
+- Cost
+- Next-hop
+- **Sequence number**
+##### Ad-hoc On-demain Distance Vector (AODV)
 #### Link state
 ```
 very router notifies its known link states to all others.
