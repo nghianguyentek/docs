@@ -10,6 +10,19 @@ Currently, IP address has two versions, <a href="ipv4.md">IPv4</a> and <a href="
 ```
 Fragmentation is a feature to split size-exceeded packets into smaller supported ones.
 ```
+## Routing and manage forwarding tables
+### Interior algorithms
+#### Distance vector
+<pre>
+While exchanging information with their siblings, routers build their forwarding tables periodically using 
+<a href="rip.md">RIP</a> or its enhanced version, <a href="eigrp.md">EIGRP</a>. Usually, small sites use this algorithm.
+</pre>
+#### Loop-free distance vector
+##### Destination-sequenced distance vector (DSDV) 
+#### Link state
+```
+very router notifies its known link states to all others.
+```
 ## Problems
 ### Overflowing router queue
 ## References
