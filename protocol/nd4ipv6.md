@@ -47,6 +47,13 @@ Unsolicited node ->> Neighbour node: publish Neighbour Advertisement message
 ```
 ### Messages
 #### Neighbour Solicitation
+<pre>
+It's an upgraded version for <a href="arp.md">IPv4 ARP</a>.
+Transmission methods:
+- Multicast: to resolve an unknown destination address.
+- Unicast: to check the reachability of a neighbour.
+</pre>
 #### Neighbour Advertisement
 ## References
 - [Narten, T., Nordmark, E., Simpson, W., & Soliman, H. (2007). *Neighbor Discovery for IP version 6 (IPv6)*. Network Working Group.](https://datatracker.ietf.org/doc/html/rfc4861.html)
+- [Dordal, P. L. (2019). An Introduction to Computer Networks. Loyola University Chicago.](http://intronetworks.cs.luc.edu)
