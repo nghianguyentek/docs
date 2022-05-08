@@ -1,5 +1,5 @@
 # Neighbour Discovery for IPv6 (ND)
-<pre>📖 ND is a protocol for IPv6 same-link nodes to discover each other (including routers) about presence, address,
+<pre>ND is a protocol for IPv6 same-link nodes to discover each other (including routers) about presence, address,
 and reaching path. Indeed, it a combination (with improvements and extensions) of existing protocols such as 
 <a href="arp.md">Address Resolution Protocal (ARP)</a> and Internet Control Message Protocol (ICMP).</pre>
 ## Router discovery
@@ -21,7 +21,7 @@ IPv6 node ->> Routers in multicast group: send Router Solicitation request
 ### Messages
 #### Router Advertisement
 ```
-📖 A Router Advertisement message contains:
+A Router Advertisement message contains:
 - Router information
 - All network prefixes in LAN
 - MTU information (optional)
