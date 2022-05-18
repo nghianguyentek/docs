@@ -5,3 +5,7 @@
 - Problems:
   - Deadlock: a situation when two side wait for each other to continue their work.
   - Too many redundancies
+
+```mermaid
+sequenceDiagram
+```
