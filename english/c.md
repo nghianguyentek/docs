@@ -12,12 +12,20 @@
 ##### elegance
 - n /e' ləg ɡə`ns/
   - (C1): the quality of being graceful and attractive in appearance or behaviour (thanh lịch/sang trọng/trang nhã).
+##### excess
+- n /ɪ.k se's/
+  - (C1) too much (quá)
+- adj /ek ses/
+  - (C1) extra (dư/thừa)
 ##### infinite
 - adj /'ɪn fɪ nə.t/
   - (C2): without limits; extremely large or great; [forever](b.md#forever).
 ##### influential
 - adj /ɪn flu e'n ʃə`l/
   - (C1): having a lot of [influence](b.md#influence) on s/o or s/t
+##### invulnerable
+- adj /ɪn vʌ'l nər bə`l/
+  - (C2) impossible to damage or hurt in any way (bất khả xâm phạm).
 ##### negligible
 - adj /ne'ɡ lɪ dʒə bə`l/
   - (C2): too light or small in amount to be of importance (không đáng kể).
@@ -40,3 +48,12 @@
 - adj /tɔːn/
   - (C2): finding it difficult to choose between two possibilities (giằng xé).
 - pp of [tear](b.md#tear) /tɔːn/
+##### undue
+- adj /ʌn dʒu'ː/
+  - (C2) to a level that is more than necessary, acceptable, or reasonable (quá mức).
+##### unduly
+- adv /ʌn dʒu'ː li`/
+  - (C2) more than is necessary, acceptable, or reasonable (quá mức).
+##### vulnerable
+- adj /vʌ'l nə rə bə`l/
+  - (C2) able to be easily physically or mentally hurt, influenced, or attacked (dễ bị tổn thương/ảnh hưởng/tấn công).

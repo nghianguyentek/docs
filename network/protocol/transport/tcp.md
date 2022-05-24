@@ -26,5 +26,21 @@ One of two well-known transport protocols of the IP suite.
 - Checksum: 16 bits.
 - Urgent Pointer: 16 bits.
 - Options and Padding: 32 bits.
+## State
+- CLOSED
+- LISTEN (Server only)
+- SYN_SENT (Client only)
+- SYN_RECEIVED (Server only)
+- ESTABLISHED
+- FIN_WAIT_1 (Active Close)
+- FIN_WAIT_2 (Active Close)
+- CLOSING (Active Close)
+- TIME_WAIT (Active Close)
+- CLOSE_WAIT (Passive Close)
+- LAST_ACK (Passive Close)
+#### TIME_WAIT
+Change to CLOSED after 2xMSL(Maximum Segment Lifetime, is often 30 seconds).
+- Solving external old-duplicate problem.
+- 
 ## References
 - [Dordal, P. L. (2019). *An Introduction to Computer Networks. Loyola University Chicago.](http://intronetworks.luc.edu)

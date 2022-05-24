@@ -16,6 +16,10 @@
 ##### elegantly
 - adj /e' ləg ɡə`nt li/
   - (B2) in a way that is graceful and attractive in appearance or behaviour (một cách thanh lịch/sang trọng/trang nhã).
+##### enthusiasm
+- n /ɪn θju'ː zi æ zə`m/
+  - a feeling of energetic interest in a particular subject or activity and an eagerness to be involved in it (nhiệt huyết).
+  - a subject or activity that interests you very much (đam mê).
 ##### flood
 - v /flʌd/
   - (B1) cover with water (làm ngập; lụt)
@@ -33,9 +37,19 @@
 ##### remote
 - adj /rɪ` məʊ't/
   - (B2) far away in distance/space/time (xa, từ xa)
+##### serious
+- adj /sɪ'ə ri ə.s/
+  - (B1) bad (nghiêm trọng)
+  - (B2) not joking (nghiêm túc);
 ##### slight
 - adj /slaɪt/
   - (B2) small in amount (một chút; hơi); not serious (nhẹ nhàng) 
 ##### tear
 - v /te ər/ (ps. [tore](u.md#tore); pp. [torn](c.md); idioms [tear](i.md#tear))
   - (B1) pull apart (xé/kéo rách).
+##### terrorist
+- n /te' rə rɪ.st/
+  - (B2) s/o who uses violent action or threats of violent action, for political purposes (kẻ khủng bố)
+##### threat
+- n /θret/
+  - (B2) a suggestion that s/t unpleasant or violent will happen, especially if a particular action or order is not followed (sự/mối/lời đe dọa).
