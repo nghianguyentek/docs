@@ -41,6 +41,6 @@ One of two well-known transport protocols of the IP suite.
 #### TIME_WAIT
 Change to CLOSED after 2xMSL(Maximum Segment Lifetime, is often 30 seconds).
 - Solving external old-duplicate problem.
-- 
+- Lost final ACK.
 ## References
 - [Dordal, P. L. (2019). *An Introduction to Computer Networks. Loyola University Chicago.](http://intronetworks.luc.edu)
