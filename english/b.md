@@ -34,6 +34,13 @@
 ##### obvious
 - adj /ɒ'b vi ə.s/
   - (B1) easy to see, understand, or recognise.
+##### period
+- n /pɪ'ə ri ə.d/
+  - (B1) a length of time (khoảng thời gian; kì).
+  - (B1) in a school, a division of time in the day when a subject is taught (tiết (học)).
+  - (B1) a fixed time during the life of a person or in history (giai đoạn).
+  - (B1) the bleeding from a woman's womb that happens once a month when she is not pregnant (kinh (nguyệt)).
+  - (B1) the dot (.) symbol to indicate the end of a sentence or the end of the short form of a word (dấu chấm).
 ##### remote
 - adj /rɪ` məʊ't/
   - (B2) far away in distance/space/time (xa, từ xa)
