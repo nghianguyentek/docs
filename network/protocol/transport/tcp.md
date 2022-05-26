@@ -67,5 +67,10 @@ Delay sending small packets.
 ### Keep alive
 Periodically, both sides check the status of each other, by sending data-less packets, until exceeding the limit, 2 hours by default.  
 `TCP_KEEPALIVE`
+## CLI commands
+### Checking a port is listening on a remote host
+`nc -vz host port`  
+`telnet host port`  
+`curl telnet://host:port`
 ## References
 - [Dordal, P. L. (2019). *An Introduction to Computer Networks. Loyola University Chicago.](http://intronetworks.luc.edu)
