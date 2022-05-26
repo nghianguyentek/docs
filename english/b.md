@@ -1,12 +1,23 @@
 # B level
+##### alternative
+- adj /ɒ`l tɜ'ː nə tɪ.v/
+  - (B2) (thay thế)
 ##### alternatively
 - adv /ɒ\`l tɜ'ː nə tɪ.v li`/
   - (B2) used to suggest another possibility.
+##### apparently
+- adv /əp pæ'r rə\`nt li`/
+  - (B2) used to say you have read or been told s/t, although you are not certain it is true.
+  - (B2) used when the real situation is different from what you thought it was.
+  - (B2) used to say that s/t seems to be true, although it is not certain.
 ##### compromise
 - n /kɒ'm prə\` maɪ`z/
   - (B2) an agreement (thoả hiệp)
 - v /kɒ'm prə\` maɪ`z/
   - (B2) agree (thoả hiệp)
+##### concrete
+- n /kɒ'ŋ kri.t/
+  - (B2) a very hard building material made by mixing together cement, sand, small stones, and water (bê tông).
 ##### despite
 - prep /dɪs spaɪ't/
   - (B1) without taking any notice of or influenced by (bất chấp); not prevented by (mặc dù).
@@ -31,9 +42,19 @@
 ##### influence
 - n /ɪ'n flu\` ə`ns/
   - (B2) the power to have an effect on people or things, or a person or thing that is able to do this (ảnh hưởng).
+##### modest
+- adj /mɒ' dɪ.st/
+  - (B2) not large (in size or amount), or not expensive (khiêm tốn).
 ##### obvious
 - adj /ɒ'b vi ə.s/
   - (B1) easy to see, understand, or recognise.
+##### potential
+- adj /pə\` te'n ʃə`l/
+  - (B2) possible when the necessary conditions exist (tiềm năng; tiềm tàng)
+##### proposal
+- n /prə\` pə'ʊ zə`l/
+  - (B2) a suggestion, sometimes a written one (đề xuất).
+  - (B2) an offer of marriage (cầu hôn).
 ##### remote
 - adj /rɪ` məʊ't/
   - (B2) far away in distance/space/time (xa, từ xa)
@@ -53,3 +74,6 @@
 ##### threat
 - n /θret/
   - (B2) a suggestion that s/t unpleasant or violent will happen, especially if a particular action or order is not followed (sự/mối/lời đe dọa).
+###### vacant
+- adj /ve'ɪ kə`nt/
+  - (B2) empty (trống)

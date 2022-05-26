@@ -1,4 +1,6 @@
 # Idioms
+##### carry (a lot of) weight
+- to be considered serious and important enough to influence other people ((lời nói/ý kiến) có trọng lượng).
 ##### in excess of
 - too much (vượt quá)
 ##### tear
