@@ -57,12 +57,14 @@ Change to `CLOSED` after 2xMSL(Maximum Segment Lifetime, is often 30 seconds).
 - Delayed ACKs
 - Delayed sending data
 - Keep alive
-#### Delayed ACKs
+### Delayed ACKs
 `TCP_QUICKACK` option is used to disable delayed ACK on a specific connection and will be reset after next TCP system call
 (i.e., should be set after each receiving).
-#### Delayed sending data
+### Delayed sending data
 `TCP_NODELAY` option is used to disable Nagle's algorithm on a specific connection.
-#### Keep alive
+#### Nagle's algorithm
+Delay sending small packets.
+### Keep alive
 Periodically, both sides check the status of each other, by sending data-less packets, until exceeding the limit, 2 hours by default.  
 `TCP_KEEPALIVE`
 ## References
