@@ -2,6 +2,9 @@
 ##### accelerated
 - adj /ə.k se' lə reɪ tɪ.d/
   - faster than usual (tăng tốc).
+##### accumulative
+- adj /ə\` kju'ː mə\` lə` tɪ.v/
+  - [cumulative](u.md#cumulative) ~ gradually increasing in number or amount (tích luỹ).
 ##### anomalous
 - adj /ə nɒ' mə lə.s/
   - different from what is usual, or not in agreement with s/t else and therefore not satisfactory (bất thường).
@@ -24,6 +27,9 @@
 ##### concrete
 - v /kɒ'ŋ kri.t/
   - to cover s/t in [concrete](b.md#concrete) (đổ bê tông).
+##### cumulative
+- adj /kju'ː mə\` lə` tɪ.v/
+  - [accumulative](u.md#accumulative) ~ increasing by one addition after another (tích luỹ).
 ##### granularity
 - n  /ɡræn nju læ' rə ti`/
   - the quality of including a lot of small details (chi tiết). 
@@ -57,6 +63,12 @@
 ##### parallelism
 - n /pæ' rə\` le lɪ zə`m/
   - dead person's spirit returns to life in another
+##### periodic
+- adj /pɪ'ə ri\` ɒ' dɪ.k/
+  - happening repeatedly over a [period](b.md#period) of time (định kì).
+##### periodically
+- adv /pɪ'ə ri\` ɒ' dɪ.k li`/
+  - in a [periodic](u.md#periodic) way (định kì).
 ##### reincarnation
 - n /ri'ː ɪn kɑː ne'ɪ ʃə`n/
   - dead person's spirit returns to life in another body (chuyển thế/sinh; đầu thai; luân hồi).
