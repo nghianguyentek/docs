@@ -81,6 +81,13 @@
 ##### threat
 - n /θret/
   - (B2) a suggestion that s/t unpleasant or violent will happen, especially if a particular action or order is not followed (sự/mối/lời đe dọa).
+##### trick
+- n /trɪk/
+  - (B1) an action that intended to deceive, either as a way of cheating s/o, or as a joke or form of entertainment (lừa; trò (đùa); mánh khoé/mẹo)
+- v /trɪk/
+  - (B2) to deceive s/o, often as a part of a plan (lừa/gạt)
+- adj /trɪk/
+  - used to deceive s/o, either as a joke or form of entertainment or so that they make a mistake (mẹo/khó).Ï
 ###### vacant
 - adj /ve'ɪ kə`nt/
   - (B2) empty (trống)

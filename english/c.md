@@ -1,4 +1,7 @@
 # C level
+##### broadly
+- adv /brɔ'ːd li`/
+  - (C1) generally (một cách chung chung)
 ##### compromise
 - v /kɒ'm prə\` maɪ`z/
   - (C2) harm (tổn hại/gây nguy hại)
@@ -32,6 +35,13 @@
 ##### insomnia
 - n /ɪ`n sɒ'm niə/
   - (C2) the condition of unable to sleep, over a period of time (mất ngủ).
+##### intruder
+- n /ɪn tru'ː də`r/
+  - (C2) s/o who is in a place or situation where they are not wanted (kẻ xâm nhập; kẻ đột nhập).
+  - (C2) s/o who enters a place w/o permission in order to commit a crime.
+##### intrusion
+- n /ɪ\`n tru'ː ʒə`n/
+  - (C2) an occasion when s/o goes into a place or situation where they are not wanted or expected to be (can thiệp; xâm nhập)
 ##### invulnerable
 - adj /ɪn vʌ'l nər bə`l/
   - (C2) impossible to damage or hurt in any way (bất khả xâm phạm).
@@ -44,6 +54,10 @@
 ##### negligibly
 - adj /ne'ɡ lɪ dʒə bli`/
   - (C2) in a [negligible](#negligible) way.
+##### privilege
+- n /prɪ' və lɪ.dʒ/
+  - (C1) an advantage that only one person or group of people has, usually because of their position or because they are rich (đặc quyền)
+  - (C1) an opportunity to do s/t special or enjoyable (vinh dự).
 ##### prospective
 - adj  /prə` spe'k tɪ.v/
   - (C1) [potential](b.md#potential)

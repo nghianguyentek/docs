@@ -85,6 +85,9 @@
   - to try to make s/o believe in s/t that is not true, as a joke (lừa; giả mạo)
 ##### tore
 - ps of [tear](b.md#tear) /tɔːr/
+##### vulnerability
+- n /vʌl nə\` rə` bɪ' lə ti/
+  - the quality of being [vulnerable](c.md#vulnerable), or s/t that is [vulnerable](c.md#vulnerable) (dễ bị tổn thương; lỗ hổng).
 ##### worsening
 - adj /wɜ'ː sə\`n nɪ`ŋ/
   - becoming worse
