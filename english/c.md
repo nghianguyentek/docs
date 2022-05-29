@@ -2,12 +2,18 @@
 ##### broadly
 - adv /brɔ'ːd li`/
   - (C1) generally (một cách chung chung)
+##### concern
+- v /kə`n sɜːn/
+  - (C1) to cause worry to s/o (khiến lo lắng).
 ##### compromise
 - v /kɒ'm prə\` maɪ`z/
   - (C2) harm (tổn hại/gây nguy hại)
 ##### concrete
 - adj /kɒ'ŋ kri.t/
   - (C1) clear and certain, or real and existing in a form that can be seen or felt (cụ thể).
+##### confine
+- v /kə`n fa'ɪ n/
+  - (C2) to limit an activity, person, or problem in some way (giới hạn). 
 ##### criterion
 - n /kra\`ɪ tɪ'ə ri ə`n/
   - (C1) a standard by which you judge, decide about, or deal with something (tiêu chí).
@@ -23,15 +29,23 @@
   - (C1) too much (quá)
 - adj /ek ses/
   - (C1) extra (dư/thừa)
+##### flaw
+- n /flɔː/
+  - (C1) a fault, mistake, or weakness, especially one that happens while s/t is being planned or made, or that causes s/t not to be perfect (lỗi; sai sót; điểm yếu/lỗ hổng)
+- v /flɔː/
+  - to cause s/t not to be perfect (làm cho/ gây lỗi).
+##### forward
+- adv /fɔ'ː wə.d/
+  - (C1) used in expressions related to progress (tiến).
+##### immune
+- adj /ɪ`m mjun/
+  - (C2) protected against a particular disease by particular substances in the blood (miễn nhiễm/dịch).
 ##### infinite
 - adj /'ɪn fɪ nə.t/
   - (C2) without limits; extremely large or great; [forever](b.md#forever).
 ##### influential
 - adj /ɪn flu e'n ʃə`l/
   - (C1) having a lot of [influence](b.md#influence) on s/o or s/t
-##### immune
-- adj /ɪ`m mjun/
-  - (C2) protected against a particular disease by particular substances in the blood (miễn nhiễm/dịch).
 ##### insomnia
 - n /ɪ`n sɒ'm niə/
   - (C2) the condition of unable to sleep, over a period of time (mất ngủ).
@@ -45,6 +59,19 @@
 ##### invulnerable
 - adj /ɪn vʌ'l nər bə`l/
   - (C2) impossible to damage or hurt in any way (bất khả xâm phạm).
+##### legitimate
+- adj /lə` dʒɪ't təm mə.t/
+  - (C2) allowed by law (hợp pháp).
+  - (C2) reasonable and acceptable
+- v /lə` dʒɪ't təm mə.t/
+  - (C2) [legitimise](c.md#legitimise): to make s/t legal or acceptable.
+##### legitimately
+- adv /lə` dʒɪ't təm mə.t li/
+  - (C2) in a legitimate way (hợp pháp).
+  - (C2) in a way that is reasonable and acceptable.
+##### legitimise
+- v /lə` dʒɪ't təm maɪz/
+  - (C2) to make s/t legal or acceptable.
 ##### modestly
 - adv /mɒ' d.ɪst li`/
   - (C1) not much/very (nhẹ); in a [modest](b.md#modest) way (một cách khiêm tốn).
@@ -54,13 +81,28 @@
 ##### negligibly
 - adj /ne'ɡ lɪ dʒə bli`/
   - (C2) in a [negligible](#negligible) way.
+##### notorious
+- adj /nəʊ tɔ'ː ri ə.s/
+  - (C1) infamous: famous for s/t bad (nổi/khét tiếng).
+##### notoriously
+- adv /nəʊ tɔ'ː ri ə.s li`/
+  - (C1) in a [notorious](c.md#notorious) way.
 ##### privilege
 - n /prɪ' və lɪ.dʒ/
   - (C1) an advantage that only one person or group of people has, usually because of their position or because they are rich (đặc quyền)
   - (C1) an opportunity to do s/t special or enjoyable (vinh dự).
+##### profile
+- n /prə'ʊ faɪ`l/
+  - (C1) the amount of public attention and notice that s/t receives (tầm).
+##### prospect
+- n /prɒ's pe.kt/
+  - (C2) the idea of s/t that will or might happen in the future (viễn cảnh).
 ##### prospective
 - adj  /prə` spe'k tɪ.v/
   - (C1) [potential](b.md#potential)
+##### proximity
+- n /prɒk sɪ' mət ti`/
+  - (C2) the state of being near in space or time (gần).
 ##### remote
 - adj /rɪ` məʊ't/
   - (C2) [slight](b.md#slight) (xa vời)
@@ -82,7 +124,10 @@
   - (C2) to a level that is more than necessary, acceptable, or reasonable (quá mức).
 ##### unduly
 - adv /ʌn dʒu'ː li`/
-  - (C2) more than is necessary, acceptable, or reasonable (quá mức).
+  - (C2) dishonest: more than is necessary, acceptable, or reasonable (quá mức).
+##### unscrupulous
+- adj /ʌn skru'ːp pjə lə.s/
+  - (C2) behaving in a way that is dishonest or unfair in order to get what you want (vô dạo đức).
 ##### vulnerable
 - adj /vʌ'l nə rə bə`l/
   - (C2) able to be easily physically or mentally hurt, influenced, or attacked (dễ bị tổn thương/ảnh hưởng/tấn công).
