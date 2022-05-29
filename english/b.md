@@ -58,6 +58,9 @@
 ##### potential
 - adj /pə\` te'n ʃə`l/
   - (B2) possible when the necessary conditions exist (tiềm năng; tiềm tàng)
+##### potentially
+- adj /pə\` te'n ʃə\`l li`/
+  - (B2) possibly (tiềm năng; tiềm tàng)
 ##### proposal
 - n /prə\` pə'ʊ zə`l/
   - (B2) a suggestion, sometimes a written one (đề xuất).
