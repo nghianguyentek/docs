@@ -3,9 +3,37 @@
 ## Version
 - 1.2 (Obsoleted)
 - 1.3 (Current)
+## Record protocol
+The record protocol responds to secure data (e.g., encryption and decryption) and data transmission, including fragmentation. Data is in the form of records, and there are two record types, the TLSPlaintext and TLSCiphertext (i.e., contains encrypted data).
+### TLSPlaintext record
+#### Structure
+```
+content_type = 2-byte_content_type_code,
+legacy_record_version = 0x0303,
+content_length = 4-byte,
+content
+```
+#### TLS record content types
+| Content type       | Code |
+|--------------------|------|
+| invalid            | 0x00 |
+| change_cipher_spec | 0xF4 |
+| alert              | 0xF5 |
+| handshake          | 0xF6 |
+| application_data   | 0xF7 |
+
+### TLSCiphertext record
+#### Structure
+```
+content_type = 0xF7,
+legacy_record_version = 0x0303,
+content_length = 4-byte,
+encrypted_content
+```
 ## Handshake protocol
+The handshake protocol responds to shared-key exchange, cypher options, and parties authentication.
+### Common flow (without extensions and client-authentication)
 *In the TLS context, the endpoint that starts the connection is called the client, and the other is the server.*
-### Common flow (server-authentication only)
 ```mermaid
 sequenceDiagram
 Client->>Server: ClientHello
@@ -15,16 +43,16 @@ Server->>Client: {CertificateVerify}
 Server->>Client: {Finished}
 Client->>Server: {Finished}
 ```
-*`{...}` means data was encrypted.*  
-Once the server replies ClientHello with a ServerHello, all later messages are encrypted.
-## Messages
-### General message format
+*`{...}` means data was encrypted. Indeed, once the server replies ClientHello with a ServerHello, all later messages are encrypted.*
+## Handshake messages
+### General message structure
 ```
 handshake_message_type = 1-byte
 message_length = 3-byte
 message_content
 ```
-### ClientHello (0x01) content
+### ClientHello (0x01) message
+#### Structure
 ```
 legacy_protocol_version = 0x0303,
 random = 32-byte_secure_random_number,
@@ -41,11 +69,12 @@ extensions = 2-byte_extentions_length extension_contents_list
 | TLS_CHACHA20_POLY1305_SHA256 | 0x1303 |
 | TLS_AES_128_CCM_SHA256       | 0x1304 |
 | TLS_AES_128_CCM_8_SHA256     | 0x1305 |
-#### Extension content
+#### Extension content structure
 ```
 extension_type = 2-byte
 extension_data
 ```
+#### Extension types
 | Extension type                         | Code   |
 |----------------------------------------|--------|
 | server_name                            | 0x0000 |
