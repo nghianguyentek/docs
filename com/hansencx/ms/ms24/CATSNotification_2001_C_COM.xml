@@ -1,0 +1,88 @@
+<ase:aseXML xmlns:ase="urn:aseXML:r35" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="urn:aseXML:r35 http://www.nemmco.com.au/asexml/schemas/r35/aseXML_r35.xsd">
+    <Header>
+        <From>NEMMCO</From>
+        <To>CNRGYP</To>
+        <MessageID>mesg-1654070408935</MessageID>
+        <MessageDate>2022-06-01T08:00:08</MessageDate>
+        <TransactionGroup>CATS</TransactionGroup>
+        <Priority>Medium</Priority>
+        <Market>NEM</Market>
+    </Header>
+    <Transactions>
+        <Transaction initiatingTransactionID="CNRGYP-TNS-22547101"
+                     transactionDate="2022-06-01T08:00:08"
+                     transactionID="gen-1654070408935">
+            <CATSNotification version="r29">
+                <Role>LNSP</Role>
+                <RoleStatus>C</RoleStatus>
+                <ChangeRequest>
+                    <Participant>CNRGYP</Participant>
+                    <RequestID>20220601195919</RequestID>
+                    <ChangeStatusCode>COM</ChangeStatusCode>
+                    <ChangeData>
+                        <ChangeReasonCode>2001</ChangeReasonCode>
+                        <ActualChangeDate>2012-02-01</ActualChangeDate>
+                        <MeterReadTypeCode/>
+                        <NMIStandingData version="r35" xsi:type="ase:ElectricityStandingData">
+                            <NMI checksum="5">4204004690</NMI>
+                            <SharedIsolationPointFlag>Y</SharedIsolationPointFlag>
+                            <ConnectionConfiguration>XX</ConnectionConfiguration>
+                            <MasterData>
+                                <Address>
+                                    <StructuredAddress>
+                                        <FlatOrUnit>
+                                            <FlatOrUnitType>U</FlatOrUnitType>
+                                            <FlatOrUnitNumber>9</FlatOrUnitNumber>
+                                        </FlatOrUnit>
+                                        <FloorOrLevel>
+                                            <FloorOrLevelType>FL</FloorOrLevelType>
+                                            <FloorOrLevelNumber>9</FloorOrLevelNumber>
+                                        </FloorOrLevel>
+                                        <BuildingOrPropertyName>TIFFANY PLAZA</BuildingOrPropertyName>
+                                        <LocationDescriptor>NO 3 TRANSFORMER PEAKHURST SUB</LocationDescriptor>
+                                        <House>
+                                            <HouseNumber>95</HouseNumber>
+                                            <HouseNumberTo>100</HouseNumberTo>
+                                            <HouseNumberSuffix>A</HouseNumberSuffix>
+                                        </House>
+                                        <Lot>
+                                            <LotNumber>911</LotNumber>
+                                        </Lot>
+                                        <Street>
+                                            <StreetName>MACQUARIE GROVE</StreetName>
+                                            <StreetType>ST</StreetType>
+                                            <StreetSuffix>S</StreetSuffix>
+                                        </Street>
+                                    </StructuredAddress>
+                                    <SuburbOrPlaceOrLocality>MACQUARIE</SuburbOrPlaceOrLocality>
+                                    <StateOrTerritory>NSW</StateOrTerritory>
+                                    <PostCode>9814</PostCode>
+                                    <DeliveryPointIdentifier>10000000</DeliveryPointIdentifier>
+                                </Address>
+                            </MasterData>
+                            <RoleAssignments>
+                                <RoleAssignment>
+                                    <Party>AES</Party>
+                                    <Role>FRMP</Role>
+                                </RoleAssignment>
+                                <RoleAssignment>
+                                    <Party>CNRGYMDP</Party>
+                                    <Role>MDP</Role>
+                                </RoleAssignment>
+                                <RoleAssignment>
+                                    <Party>CNRGYP</Party>
+                                    <Role>RP</Role>
+                                </RoleAssignment>
+                            </RoleAssignments>
+                        </NMIStandingData>
+                    </ChangeData>
+                </ChangeRequest>
+                <JurisdictionCode>NSW</JurisdictionCode>
+                <NMIClassificationCode>SMALL</NMIClassificationCode>
+                <CustomerClassificationCode>RES</CustomerClassificationCode>
+                <ObjectionEndDate>2012-03-01</ObjectionEndDate>
+            </CATSNotification>
+        </Transaction>
+    </Transactions>
+</ase:aseXML>

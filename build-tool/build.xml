@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Kihon backend" default="build">
+    <property name="verbose" value=""/>
+
+    <target name="build" depends="print_ant_info,clean"/>
+    <target name="print_ant_info" if="verbose">
+        <echo level="info" message="ant.version=${ant.version}${line.separator}ant.home=${ant.home}"/>
+    </target>
+    <target name="clean">
+        <delete dir="target"/>
+    </target>
+</project>
