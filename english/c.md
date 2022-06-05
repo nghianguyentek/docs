@@ -49,6 +49,12 @@
 ##### insomnia
 - n /ɪ`n sɒ'm niə/
   - (C2) the condition of unable to sleep, over a period of time (mất ngủ).
+## intolerance
+### n /ɪn tɒ'l ə r.əns/
+- (C2) the fact of refusing to accept ideas, beliefs, or behavior that are different from your own (không chấp nhận, không chịu được).
+  - *[intolerance](c.md#intolerance) for delay*
+- if you have a food [intolerance](c.md#intolerance), you can not digest a particular food in a normal way and may feel ill if you eat it (không dung nạp).
+  - *food [intolerance](c.md#intolerance)*
 ##### intruder
 - n /ɪn tru'ː də`r/
   - (C2) s/o who is in a place or situation where they are not wanted (kẻ xâm nhập; kẻ đột nhập).

@@ -1,10 +1,8 @@
 # TCP (Transmission Control Protocol)
-<pre>
 One of two well-known transport protocols of the IP suite.
-</pre>
 ## Characteristics
 - Connection-Oriented
-- Stream-Oriented
+- Stream-Oriented: responds to buffer and/or divide data into appropriate sized packets.
 - Numbered
 - Timeout & retransmission control.
 ## Header

@@ -1,7 +1,5 @@
 # UDP (User Datagram Protocol)
-<pre>
 One of standard transport protocols of IP suite.
-</pre>
 ## Characteristics
 - Unreliable: no timeout, no acknowledgement, no retransmission.
 - Unconnected

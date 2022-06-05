@@ -42,4 +42,15 @@ In the front of one Ethernet packet, there may be a preamble (i.e., a block of 1
 ## Transmission types
 - Unicast
 - Flooding [(broadcast)](intro.md#transmission-types)
+### Encoding and framing
+- Encoding: identifying bit stream
+- Framing: identifying packets
+#### Encodings
+- NRZ (Non-Return to Zero)
+- NRZI (NRZ Inverted): USB
+- Manchester: Classic Ethernet (10Mbps); transition occurs in the center of each bit period.
+- 4B/5B: Fast Ethernet (100 Mbps)
+- PAM-5: Gigabit Ethernet
 ## Protocols
+## References
+- [Dordal, P. L. (2019). *An Introduction to Computer Networks*. Loyola University Chicago.](http://intronetworks.cs.luc.edu)

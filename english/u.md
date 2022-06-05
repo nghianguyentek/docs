@@ -45,12 +45,9 @@
 ## collision
 ### n /kə' lɪ' ʒ.ə`n/
 - An accident that happens when two vehicles hit each other with force (va chạm).
-
-*The host system may query its card for collision statistics (Hệ thống chủ có thể truy vấn thẻ của nó để biết thống kê va chạm.*
-
+  - *The host system may query its card for collision statistics (Hệ thống chủ có thể truy vấn thẻ của nó để biết thống kê va chạm.*
 - A strong disagreement (đụng chạm).
-
-*There was a collision of interests (Đã có một sự đụng chạm đến lợi ích).*
+  - *There was a collision of interests (Đã có một sự đụng chạm đến lợi ích).*
 ##### conceptual
 - adj /kə\`n se'p tʃu (ə`l)/
   - based on ideas or principles (khái niệm).
@@ -66,6 +63,11 @@
 ##### cumulative
 - adj /kju'ː mə\` lə` tɪ.v/
   - [accumulative](u.md#accumulative) ~ increasing by one addition after another (tích luỹ).
+## eavesdrop
+### v /i'ːvz drɒp/
+- to listen to s/o's private conversation w/o them knowing (nghe lén, nghe trộm).
+  - *Unlike with ARP, other hosts on the LAN are not expected to [eavesdrop](u.md#eavesdrop) on the initial Neighbour Solicitation message.*
+  - *These two attacks can have the goal either of [eavesdrop](u.md#eavesdrop)ping or of denial of service.*
 ##### evasion
 - n /ɪ\` veɪ' ʒə`n/
   - the act of avoiding s/t or s/o (lảng/trốn tránh).

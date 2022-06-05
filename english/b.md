@@ -129,8 +129,7 @@
 ## quality
 ### n /kwɒ'l lə ti`/
 - how good or bad something is (chất lượng).
-
-*[Quality](b.md#quality) of service*
+  - *[Quality](b.md#quality) of service*
 ##### remote
 - adj /rɪ` məʊ't/
   - (B2) far away in distance/space/time (xa, từ xa)
@@ -178,7 +177,7 @@
 - prep /ə.p pɒ'n/
   - (B2) on (trên)
   - (B2) when (khi).
-###### vacant
+##### vacant
 - adj /ve'ɪ kə`nt/
   - (B2) empty (trống).
 ##### vehicle
