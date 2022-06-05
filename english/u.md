@@ -19,10 +19,15 @@
   - different from what is usual, or not in agreement with s/t else and therefore not satisfactory (bất thường).
 ##### anomalously
 - adv /ə\` nɒ'm məl lə.s li`/
-  - in a [anomalous](u.md#anomalous) way (bất thường).
+  - in an [anomalous](u.md#anomalous) way (bất thường).
 ##### anomaly
 - n /ə\` nɒ'm məl li`/
   - a person or thing that is different from what is usual, or not in agreement with s/t else and therefore not satisfactory (bất thường).
+## attenuation
+### n /ə.t ten nju eɪ' ʃə`n/
+- the process of making s/t less or weaker (giảm, suy giảm).
+
+*The attenuation of light through glass depends on the wavelength of the light (as well as on some physical properties of the glass) (Sự suy giảm của ánh sáng qua thủy tinh phụ thuộc vào bước sóng (cũng như vào một số thuộc tính của thủy tinh)).*
 ##### aura
 - n /ˈɔː rə`/
   - a feeling or character that a person or place seems to have ().
@@ -37,6 +42,15 @@
 - v /ba'ɪ pɑ.s/
   - to avoid s/t by going around it (vòng qua).
   - to ignore a rule or official authority (bỏ qua).
+## collision
+### n /kə' lɪ' ʒ.ə`n/
+- An accident that happens when two vehicles hit each other with force (va chạm).
+
+*The host system may query its card for collision statistics (Hệ thống chủ có thể truy vấn thẻ của nó để biết thống kê va chạm.*
+
+- A strong disagreement (đụng chạm).
+
+*There was a collision of interests (Đã có một sự đụng chạm đến lợi ích).*
 ##### conceptual
 - adj /kə\`n se'p tʃu (ə`l)/
   - based on ideas or principles (khái niệm).
@@ -66,6 +80,10 @@
 ##### granularity
 - n  /ɡræn nju læ' rə ti`/
   - the quality of including a lot of small details (chi tiết). 
+## gratuitous
+### adj /ɡrə tʃu'ː ɪ tə.s/
+- (of s/t such as bad behavior) not necessary, or with no cause (vô cớ, thừa thãi).
+  - *Most hosts today implement [gratuitous](u.md#gratuitous) ARP, or self ARP.*
 ##### handshake
 - n /hæ'nd ʃeɪ.k/
   - a greeting or an act to show agreement by holding and shaking each other's right hand (bắt tay).
@@ -75,12 +93,21 @@
 ##### insomniac
 - n /ɪ`n sɒ'm ni æ.k/
   - S/o who often finds it difficult to sleep (mất ngủ). 
+## interoperability
+### n /ɪ'n tə rɒ'p pə rə\` bɪ' lə ti`/
+- the degree to which two products, programs, etc. can be used together, or the quality of being able to be used together (khả năng tương thích). 
+  - *Token Ring, in its day, did commonly offer a configuration option to allow Ethernet [interoperability](u.md#interoperability).*
 ##### jurisdiction
 - n /dʒʊ.ə rɪ.s dɪ'k ʃə`n/
   - The authority of a court or official organisation to make decisions and judgments (thẩm quyền/quyền tài phán).
 ##### jurisdictional
 - adj  /dʒʊ.ə rɪ.s dɪ'k ʃən nə`l/
   - Connected with jurisdiction (thẩm quyền).
+## lapse
+### n /læps/
+- a temporary failure (mất (tạm thời)).
+  - *Memory lapse (mất trí nhớ (tạm thời)).*
+  - *A lapse of concentration (mất tập trung).*
 ##### lest
 - conj /lest/
   - in order to prevent any possibility that s/t will happen (vì).
@@ -105,6 +132,10 @@
 ##### periodically
 - adv /pɪ'ə ri\` ɒ' dɪ.k li`/
   - in a [periodic](u.md#periodic) way (định kì).
+## prevailing
+### adj /prɪ\` ve'ɪ lɪ`ŋ/
+- existing in a particular place or at a particular time (thịnh hành).
+  - *From there we will go on to understand the most prevailing network reference models OSI and TCP/IP.*
 ##### polymorphism
 - n /pɒ'l li mɔ'ː fɪ zə`m/
   - the fact that s/t such as animal or organism can exist in different forms (tính đa hình).
@@ -128,6 +159,11 @@
 ##### retrospectively
 - adv /re.t trə spe'k tɪ.v li`/
   - in a retrospective way (hồi tưởng).
+## scalability
+### n /skeɪ' lə\` bɪ' lə ti`/
+- the ability of a business or system to grow larger (khả năng mở rộng).
+
+*The crucial aspect of IP is its [scalability](u.md#scalability)*
 ##### secrecy
 - n /si'k krə.s si/
   - the state of being secret or of keeping s/t secret (bí mật).

@@ -13,9 +13,6 @@
   - (B2) used to say you have read or been told s/t, although you are not certain it is true.
   - (B2) used when the real situation is different from what you thought it was.
   - (B2) used to say that s/t seems to be true, although it is not certain.
-##### crisis
-- n /kra'ɪ sɪ.s/
-  - (B2) a time of great disagreement, confusion, or suffering (khủng hoảng).
 ##### compromise
 - n /kɒ'm prə\` maɪ`z/
   - (B2) an agreement (thoả hiệp)
@@ -30,9 +27,20 @@
 ##### concrete
 - n /kɒ'ŋ kri.t/
   - (B2) a very hard building material made by mixing together cement, sand, small stones, and water (bê tông).
+##### crisis
+- n /kra'ɪ sɪ.s/
+  - (B2) a time of great disagreement, confusion, or suffering (khủng hoảng).
+## crucial
+### adj /kru'ː ʃə`l/
+- extremely important or necessary (quan trọng).
+  - *...*
 ##### despite
 - prep /dɪs spaɪ't/
   - (B1) without taking any notice of or influenced by (bất chấp); not prevented by (mặc dù).
+## distant
+### adj /dɪ's tə`nt/
+- (B2) far away
+- *We use switches to connect [distant](b.md#distant) LANs, whereas using routers to connect individual computers.*
 ##### elegant
 - adj /e' lɪg ɡə`nt/
   - (B2) graceful and attractive in appearance or behaviour (thanh lịch/sang trọng/trang nhã).
@@ -63,6 +71,20 @@
 ##### influence
 - n /ɪ'n flu\` ə`ns/
   - (B2) the power to have an effect on people or things, or a person or thing that is able to do this (ảnh hưởng).
+## involve
+### n /ɪ`n vɒ'lv/
+- If an activity, situation, etc. involves s/t, that thing is a part of the activity, etc. (tham gia, liên quan).
+
+**
+## lap
+### n /læp/
+- The top surface of the upper part of legs of a person who is sitting down (lòng).
+
+*Come and sit on my lap, and I'll read you a story.*
+
+- A complete trip around a racetrack is repeated several times during a competition (vòng).
+
+*The final lap.*
 ##### magical
 - adj /mæ' dʒɪ.k kə`l/
   - (B2) of magic: produced by or using magic (kì diệu).
@@ -76,6 +98,11 @@
 ##### obvious
 - adj /ɒ'b vi ə.s/
   - (B1) easy to see, understand, or recognise (rõ ràng).
+## overall
+### adv /ə`ʊ və rɔ'ːl/
+- in general rather than particular, or including all people or things in a particular group or situation (chung, nhìn chung).
+
+*Throughput refers to the [overall](b.md#overall) effective transmission rate, [taking into account](i.md#take-st-into-account) things like transmission overhead, protocol inefficiencies, and perhaps even competing for traffic.*
 ##### period
 - n /pɪ'ə ri ə.d/
   - (B1) a length of time (khoảng thời gian; kì).
@@ -99,6 +126,11 @@
 ##### prospect
 - n /prɒ's pe.kt/
   - (B2) possibility (triển vọng).
+## quality
+### n /kwɒ'l lə ti`/
+- how good or bad something is (chất lượng).
+
+*[Quality](b.md#quality) of service*
 ##### remote
 - adj /rɪ` məʊ't/
   - (B2) far away in distance/space/time (xa, từ xa)

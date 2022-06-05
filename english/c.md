@@ -53,9 +53,10 @@
 - n /ɪn tru'ː də`r/
   - (C2) s/o who is in a place or situation where they are not wanted (kẻ xâm nhập; kẻ đột nhập).
   - (C2) s/o who enters a place w/o permission in order to commit a crime.
-##### intrusion
-- n /ɪ\`n tru'ː ʒə`n/
-  - (C2) an occasion when s/o goes into a place or situation where they are not wanted or expected to be (can thiệp; xâm nhập)
+## intrusion
+### n /ɪ\`n tru'ː ʒə`n/
+- (C2) an occasion when s/o goes into a place or situation where they are not wanted or expected to be (can thiệp; xâm nhập).
+  - *Most network [intrusion](c.md#intrusion)-detection systems (NIDS) detect [intrusions](c.md#intrusion) based on traffic anomalies or pattern-based signatures.*
 ##### invulnerable
 - adj /ɪn vʌ'l nər bə`l/
   - (C2) impossible to damage or hurt in any way (bất khả xâm phạm).
@@ -72,6 +73,13 @@
 ##### legitimise
 - v /lə` dʒɪ't təm maɪz/
   - (C2) to make s/t legal or acceptable.
+## medium
+### n /mi' di ə.m/
+- (C2) a method or way of expressing s/t (phương tiện, phương thức).
+
+*[Overall](b.md#overall), I tried to find a happy [medium](c.md#medium) between practical matters and underlying principles (Nhìn chung, tôi đã cố tìm một phương thức hài hoà các vấn đề thực tiễn và các nguyên lý bên dưới).*
+
+*In its most basic form, the Ethernet [medium](c.md#medium) was one long piece of coaxial cable, onto which stations could be connected via taps (Ở dạng đơn giản nhất, phương tiện Ethernet là một đoạn cáp đồng trục dài mà trên đó các trạm mạng có thể được kết nối).*
 ##### modestly
 - adv /mɒ' d.ɪst li`/
   - (C1) not much/very (nhẹ); in a [modest](b.md#modest) way (một cách khiêm tốn).

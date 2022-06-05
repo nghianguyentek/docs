@@ -1,5 +1,32 @@
 # Introduction
+## Transmission types
+- Broadcast: sends data to all nodes in a network.
+- Unicast: sends data to a specific node in a network.
+## Design a network protocol or set up a network
+### Criteria
+- Transmission
+- Geographical area
+- Technology
+- User group
+- Application
+## Network categories
+### By transmission
+- Connection-oriented
+- Connectionless
+### By size
+- [LAN (Local Area Network)](lan.md)
+- MAN (Metropolitan Area Network)
+- WAN (Wide Area Network)
+- Internet
 ## Terms
+### Bandwidth
+[Data rate](#data-rate) (more common) or [throughput](#throughput).
+### Data rate
+The data transmission rate in bits per second (`bps`) and can vary in time.
+
+*Note that (the lower-case) `b` stands for `bit` meanwhile (the upper-case) `B` stands for `byte`.*
+### Throughput
+The overall data rate  
 ##### RTT (Round-Trip-Time)
 <pre>
 A duration between sending a packet and receiving its response.
@@ -18,6 +45,8 @@ Generally, it's an optimum value for a <a href="#winsize-(window-size)">winsize<
 <pre>
 The minimum bandwidth in a network.
 </pre>
+### Protocol
+A set of rules.
 ### Router
 Responsibilities:
 - Routing
