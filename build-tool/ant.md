@@ -30,20 +30,18 @@
 ### `path` element
 #### Attributes
 
-| Name        | Description                                                    | Required |
-|:------------|----------------------------------------------------------------|:--------:|
-| name        | Property name. Case-sensitive.                                 |   Y(N)   |
-| value       | Property value.                                                |   Y(N)   |
-| environment | Specify a prefix that is used to access environment variables. |   N(Y)   |
+| Name        | Description    | Required |
+|:------------|----------------|:--------:|
+| id          | Referenced id. |    Y     |
+| path        | Path location. |    N     |
 
 #### Examples
 ```xml
-<project>
-    <property name="verbose" value=""/>
-    <property environment="env"/>
-    <property name="deployment.dir" value="${env.DEPLOYMENT_DIR}"/>
-</project>
+<path id="classpath" path="lib" />
 ```
+
+*`path` can contain [path structure elements](ant.md#path-structure-elements).*
+
 ### `target` element
 #### Attributes
 
@@ -73,13 +71,46 @@
 </project>
 ```
 ## Built-in tasks
+### `chmod`
+Change permissions of a file or all files in specific directories.
+#### Attributes
+| Name | Description                                 | Required |
+|------|---------------------------------------------|:--------:|
+| file | File to change permissions.                 |   Y(N)   |
+| dir  | Files in a directory to change permissions. |   N(Y)   |
+| perm | Permissions to set.                         |    Y     |
+#### Examples
+- Copy a specific file `src_file` to `dest_dir` directory.
+```xml
+<chmod file="file" perm="ugo+x"/>
+```
+### `copy`
+Copy files and directories to a destination directory.
+
+*It's common to use [`fileset`](ant.md#fileset-element) in `copy`.*
+#### Attributes
+| Name  | Description                                | Required |
+|-------|--------------------------------------------|:--------:|
+| todir | Destination directory. **DO NOT SET `.`**. |    Y     |
+| file  | File to copy                               |    N     |
+#### Examples
+- Copy a specific file `src_file` to `dest_dir` directory.
+```xml
+<copy file="src_file" todir="dest_dir"/>
+```
+- Copy files and subdirectories of `src_dir` directory to `dest_dir` directory. 
+```xml
+<copy todir="dest_dir">
+    <fileset dir="src_dir"/>
+</copy>
+```
 ### `delete`
 Delete files or directories.
 #### Attributes
 
-| Attribute name | Description                                                                              | Required |
-|----------------|------------------------------------------------------------------------------------------|:--------:|
-| dir            | The directory to delete, including all its files and subdirectories. **DO NOT SET `.`**. |    Y     |
+| Name | Description                                                                              | Required |
+|------|------------------------------------------------------------------------------------------|:--------:|
+| dir  | The directory to delete, including all its files and subdirectories. **DO NOT SET `.`**. |    Y     |
 
 #### Examples 
 
@@ -129,6 +160,17 @@ Create a directory, including parents if they don't exist.
 ```xml
 <mkdir dir="target"/>
 ```
+## Path structure elements
+### `fileset` element
+#### Attributes
+| Name          | Description                                                     | Required |
+|---------------|-----------------------------------------------------------------|:--------:|
+| dir           | Root directory of this file set.                                |    Y     |
+| excludes      | comma-separated or space-separated file-patterns to be excluded |    N     |
+#### Examples
+```xml
+<fileset dir="lib" excludes="ant.jar tmp/*.jar"/>
+```
 ## Java sample
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -137,6 +179,6 @@ Create a directory, including parents if they don't exist.
     <target name="print_ant_info" if="verbose">
         <echo message="${ant.home}"/>
     </target>
-    <target name="build"></target>
+    <target name="build"/>
 </project>
 ```

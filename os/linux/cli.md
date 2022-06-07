@@ -1,12 +1,4 @@
-# Command line
-## `cd`
-Changes the current directory.
-### Syntax
-`cd dest_dir`
-
-**Examples**
-- Change to HOME: `cd`
-- Change to `Documents` directory: `cd Documents`
+# Commands
 ## `cp`
 Copies files and directories.
 ### Syntax
@@ -26,11 +18,8 @@ Copies files and directories.
   cp hello.out hello01.out
  ```
 - 
-## `echo`
-Displays a line of text.
 
-**Examples**
-- Displays `Hello Kitty`: `echo Hello Kitty`
+## `export`
 ## `ls`
 Lists directory contents.
 ### Options
