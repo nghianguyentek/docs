@@ -71,7 +71,7 @@
 </project>
 ```
 ## Built-in tasks
-### `chmod`
+### `chmod` task
 Change permissions of a file or all files in specific directories.
 #### Attributes
 | Name | Description                                 | Required |
@@ -84,7 +84,7 @@ Change permissions of a file or all files in specific directories.
 ```xml
 <chmod file="file" perm="ugo+x"/>
 ```
-### `copy`
+### `copy` task
 Copy files and directories to a destination directory.
 
 *It's common to use [`fileset`](ant.md#fileset-element) in `copy`.*
@@ -104,50 +104,73 @@ Copy files and directories to a destination directory.
     <fileset dir="src_dir"/>
 </copy>
 ```
-### `delete`
+### `delete` task
 Delete files or directories.
 #### Attributes
-
-| Name | Description                                                                              | Required |
-|------|------------------------------------------------------------------------------------------|:--------:|
-| dir  | The directory to delete, including all its files and subdirectories. **DO NOT SET `.`**. |    Y     |
-
-#### Examples 
-
+| Name | Description                                                                                                                                                                                  | Required |
+|------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
+| dir  | The directory to delete, including all its files and subdirectories. **DO NOT SET `.`**. In the case for deleting specified files, we need to use [fileset](ant.md#fileset-element) instead. |   Y(N)   |
+#### Examples
+- Delete all files and subdirectories in a specific directory.
 ```xml
 <delete dir="target"/>
 ```
-### `echo`
+- Delete specific files.
+```xml
+<delete>
+    <fileset dir="target_dir" includes="*.log"/>
+</delete>
+```
+### `echo` task
 Display messages to a file descriptor; default value is the standard output.
 #### Attributes
-
 | Name    | Description                                                  | Required |
 |---------|--------------------------------------------------------------|:--------:|
 | message |                                                              |    N     |
 | level   | `error` > `warning` (default) > `info` > `verbose` > `debug` |    N     |
-
 #### Examples
-
 ```xml
 <echo message="Welcome to Ant world" />
 ```
-### `javac`
+### `exec` task
+Display messages to a file descriptor; default value is the standard output. The arguments and environment variables if any are specified by [arg](ant.md#arg-element) and [env](ant.md#env-element) elements respectively.
+#### Attributes
+| Name       | Description                                                                             | Required |
+|------------|-----------------------------------------------------------------------------------------|:--------:|
+| executable | The name of the executable file                                                         |    Y     |
+| dir        | The directory where to execute the file. Default value is the current working directory |    N     |
+#### `arg` element
+##### Attributes
+| Name | Description        | Required |
+|------|--------------------|:--------:|
+| line | The arguments line |    Y     |
+#### `env` element
+##### Attributes
+| Name  | Description    | Required |
+|-------|----------------|:--------:|
+| key   | Variable name  |    Y     |
+| value | Variable value |    Y     |
+#### Examples
+```xml
+<exec dir="${executable-file.dir}" executable="./run-test.sh">
+    <env key="HOST" value="d67"/>
+    <arg line="--cases 1-4"/>
+</exec>
+```
+### `javac` task
 Compile Java sources.
 #### Attributes
-
 | Name       | Description                                                                                                                | Required |
 |------------|----------------------------------------------------------------------------------------------------------------------------|:--------:|
 | srcdir     | Source directory. Location of `.java` files.                                                                               |   Y(N)   |
 | destdir    | Destination directory. Location to store `.class` files.                                                                   |    N     |
 | debug      | Indicate source codes will be compiled with debug information. If set to `true`, must set the `debuglevel` attribute also. |    N     |
 | debuglevel | source                                                                                                                     |    N     |
-
 #### Examples
-
 ```xml
 <javac debug="true" debuglevel="source" srcdir="src" distdir="target" />
 ```
-### `mkdir`
+### `mkdir` task
 Create a directory, including parents if they don't exist.
 #### Attributes
 
@@ -156,18 +179,23 @@ Create a directory, including parents if they don't exist.
 | dir  | The directory to create. |    Y     |
 
 #### Examples
-
 ```xml
 <mkdir dir="target"/>
 ```
 ## Path structure elements
 ### `fileset` element
 #### Attributes
-| Name          | Description                                                     | Required |
-|---------------|-----------------------------------------------------------------|:--------:|
-| dir           | Root directory of this file set.                                |    Y     |
-| excludes      | comma-separated or space-separated file-patterns to be excluded |    N     |
+| Name     | Description                                                                                                 | Required |
+|----------|-------------------------------------------------------------------------------------------------------------|:--------:|
+| dir      | Root directory of this file set.                                                                            |    Y     |
+| includes | A comma-separated or space-separated file-patterns list to be included. If not set, all files are included. |    N     |
+| excludes | A comma-separated or space-separated file-patterns list to be excluded.                                     |    N     |
 #### Examples
+- Delete exactly some specific files.
+```xml
+<fileset dir="lib" includes="ant.jar internal/*.jar/>
+```
+- Delete all files except some specified files.
 ```xml
 <fileset dir="lib" excludes="ant.jar tmp/*.jar"/>
 ```
