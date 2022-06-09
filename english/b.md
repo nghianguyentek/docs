@@ -37,6 +37,11 @@
 ##### despite
 - prep /dɪs spaɪ't/
   - (B1) without taking any notice of or influenced by (bất chấp); not prevented by (mặc dù).
+## discipline
+### n /ˈdɪs.ə.plɪn/ (di's sợp plìn) [🔊](https://dictionary.cambridge.org/vi/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
+- (B2) (TRAINING) training that makes people more willing to obey or more able to control themselves, often in 
+the form of rules, and punishments if there are broken, or the behaviour produced by this training (kỉ luật).
+  - *...*
 ## distant
 ### adj /dɪ's tə`nt/
 - (B2) far away
@@ -47,6 +52,12 @@
 ##### elegantly
 - adj /e' ləg ɡə`nt li/
   - (B2) in a way that is graceful and attractive in appearance or behaviour (một cách thanh lịch/sang trọng/trang nhã).
+## engineering
+### n /ˌen.dʒɪˈnɪə.rɪŋ/ (èn dzì nía rìng) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uke/ukeng/ukengin001.mp3)
+- (B1) the work of an engineer (a person who designs or builds machines, engines, electrical systems, or large 
+structures such as roads or bridges using scientific principles), or the study of this work (kĩ thuật).
+  - *As with any [engineering](b.md#engineering) activity, a software engineer starts with problem definition 
+and applies tools of the trade to obtain a problem solution.*
 ##### enthusiasm
 - n /ɪn θju'ː zi æ zə`m/
   - a feeling of energetic interest in a particular subject or activity and an eagerness to be involved in it (nhiệt huyết).
