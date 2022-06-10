@@ -57,6 +57,10 @@
   - (B2) use unfairly: to use s/o or s/t unfairly for your own advantage (lợi dụng; bóc lột).
 - n /e'k splɔ`ɪt/
   - s/t unusual, brave, or funny that s/o has done (chiến tích).
+## financially
+### adv /faɪ næ'n ʃə\`l li`/
+- in a way that relates to money or how money is managed (về tài chính).
+  - *Financially Responsible Market Participant*
 ##### flood
 - v /flʌd/
   - (B1) cover with water (làm ngập; lụt)
@@ -99,10 +103,9 @@
 - adj /ɒ'b vi ə.s/
   - (B1) easy to see, understand, or recognise (rõ ràng).
 ## overall
-### adv /ə`ʊ və rɔ'ːl/
+### adv /ˌəʊ.vəˈrɔːl/ (ầu vờ rố-lờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uko/ukova/ukovary010.mp3)
 - in general rather than particular, or including all people or things in a particular group or situation (chung, nhìn chung).
-
-*Throughput refers to the [overall](b.md#overall) effective transmission rate, [taking into account](i.md#take-st-into-account) things like transmission overhead, protocol inefficiencies, and perhaps even competing for traffic.*
+  - *Throughput refers to the [overall](b.md#overall) effective transmission rate, [taking into account](i.md#take-st-into-account) things like transmission overhead, protocol inefficiencies, and perhaps even competing for traffic.*
 ##### period
 - n /pɪ'ə ri ə.d/
   - (B1) a length of time (khoảng thời gian; kì).

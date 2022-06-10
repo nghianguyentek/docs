@@ -7,6 +7,8 @@
 *Far and away, the most common type of wired LAN is Ethernet.*
 ##### in excess of
 - too much (vượt quá)
+## in relation to s/t
+- in connection with s/t (có liên quan đến).
 ## take \[s/t\] into account
 - (B2) to consider or remember s/t when judging a situation (tính).
 

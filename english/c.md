@@ -82,10 +82,8 @@
 ## medium
 ### n /mi' di ə.m/
 - (C2) a method or way of expressing s/t (phương tiện, phương thức).
-
-*[Overall](b.md#overall), I tried to find a happy [medium](c.md#medium) between practical matters and underlying principles (Nhìn chung, tôi đã cố tìm một phương thức hài hoà các vấn đề thực tiễn và các nguyên lý bên dưới).*
-
-*In its most basic form, the Ethernet [medium](c.md#medium) was one long piece of coaxial cable, onto which stations could be connected via taps (Ở dạng đơn giản nhất, phương tiện Ethernet là một đoạn cáp đồng trục dài mà trên đó các trạm mạng có thể được kết nối).*
+  - *[Overall](b.md#overall), I tried to find a happy [medium](c.md#medium) between practical matters and underlying principles (Nhìn chung, tôi đã cố tìm một phương thức hài hoà các vấn đề thực tiễn và các nguyên lý bên dưới).*
+  - *In its most basic form, the Ethernet [medium](c.md#medium) was one long piece of coaxial cable, onto which stations could be connected via taps (Ở dạng đơn giản nhất, phương tiện Ethernet là một đoạn cáp đồng trục dài mà trên đó các trạm mạng có thể được kết nối).*
 ##### modestly
 - adv /mɒ' d.ɪst li`/
   - (C1) not much/very (nhẹ); in a [modest](b.md#modest) way (một cách khiêm tốn).
@@ -114,6 +112,10 @@
 ##### prospective
 - adj  /prə` spe'k tɪ.v/
   - (C1) [potential](b.md#potential)
+## provision
+### n /prəˈvɪʒ.ən/ (prờ víz zần-nờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpro/ukprove019.mp3)
+- (SUPPLY) the act of providing s/t (sự cung cấp).
+  - *An MC is a Registered Participant with the [overall](b.md#overall) responsibility for coordination and [provision](c.md#provision) of metering services at a connection point in the NEM.*
 ##### proximity
 - n /prɒk sɪ' mət ti`/
   - (C2) the state of being near in space or time (gần).
