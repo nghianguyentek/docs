@@ -17,6 +17,10 @@
 ##### criterion
 - n /kra\`ɪ tɪ'ə ri ə`n/
   - (C1) a standard by which you judge, decide about, or deal with something (tiêu chí).
+## discipline
+### n /ˈdɪs.ə.plɪn/ (di's sợp plìn) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
+- (C2) (SUBJECT) a particular area of study, especially a subject studied at a college or university (lĩnh vực).
+  - *Software engineering is a [discipline](c.md#discipline) for solving business problem by designing and developing software-based systems.*
 ##### devastating
 - adj /de'v və.s ste'ɪ tɪ`ŋ/
   - (C2) very harmful; causing a lot of damage or destruction (huỷ hoại/tàn phá).
