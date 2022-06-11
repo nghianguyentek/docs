@@ -33,6 +33,10 @@
   - (C1) too much (quá)
 - adj /ek ses/
   - (C1) extra (dư/thừa)
+## feasible
+### adj /ˈfiː.zə.bəl/ (fí zơ bồl) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukf/ukfau/ukfault029.mp3)
+- (C1) able to be made, done, or achieved (khả thi).
+  - *Deep learning becomes economically [feasible](c.md#feasible).*
 ##### flaw
 - n /flɔː/
   - (C1) a fault, mistake, or weakness, especially one that happens while s/t is being planned or made, or that causes s/t not to be perfect (lỗi; sai sót; điểm yếu/lỗ hổng)

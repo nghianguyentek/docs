@@ -134,6 +134,10 @@
 ##### periodically
 - adv /pɪ'ə ri\` ɒ' dɪ.k li`/
   - in a [periodic](u.md#periodic) way (định kì).
+## permutation
+### n /ˌpɜː.mjuːˈteɪ.ʃən/ (pơ miu tấy shần) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukper/ukperki019.mp3)
+- (DIFFERENT WAY/FORM) any of various ways in which a set of things can be ordered (hoán vị).
+  - *AI [dramatically](b.md#dramatically) reduces problem space and the number of [permutations](u.md#permutation).*
 ## prevailing
 ### adj /prɪ\` ve'ɪ lɪ`ŋ/
 - existing in a particular place or at a particular time (thịnh hành).
@@ -172,6 +176,10 @@
 ##### spoof
 - v /spuːf/
   - to try to make s/o believe in s/t that is not true, as a joke (lừa; giả mạo)
+## synthesis
+### n /ˈsɪn.θə.sɪs/ (sín thơs sịs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksyn/uksynta004.mp3)
+- (MIX) the mixing of different ideas, influences, or things to make a whole that is different, or new (tổng hợp).
+  - *AI contributed to advancements in medical research through research [synthesis](u.md#synthesis).*
 ##### tore
 - ps of [tear](b.md#tear) /tɔːr/
 ##### unambiguous
