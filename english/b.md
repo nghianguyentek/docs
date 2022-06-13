@@ -1,4 +1,8 @@
 # B level
+## artificial
+## adj /ˌɑː.tɪˈfɪʃ.əl/ (a ti fíc shồ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uka/ukart/ukartic010.mp3)
+- (B2) made by people, often as a copy of s/t natural (nhân tạo).
+  - *[Artificial](b.md#artificial) Intelligent*
 ##### abuse
 - n /ə bju'ːs/
   - (B2) the use of s/t in a way that is harmful or morally wrong (lạm dụng).
@@ -38,7 +42,7 @@
 - prep /dɪs spaɪ't/
   - (B1) without taking any notice of or influenced by (bất chấp); not prevented by (mặc dù).
 ## discipline
-### n /ˈdɪs.ə.plɪn/ (di's sợp plìn) [🔊](https://dictionary.cambridge.org/vi/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
+### n /ˈdɪs.ə.plɪn/ (di's sợp plìn) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
 - (B2) (TRAINING) training that makes people more willing to obey or more able to control themselves, often in 
 the form of rules, and punishments if there are broken, or the behaviour produced by this training (kỉ luật).
   - *...*
@@ -46,6 +50,10 @@ the form of rules, and punishments if there are broken, or the behaviour produce
 ### adj /dɪ's tə`nt/
 - (B2) far away
 - *We use switches to connect [distant](b.md#distant) LANs, whereas using routers to connect individual computers.*
+## dramatically
+### adv /drəˈmæt.ɪ.kəl.i/ (drờ mát tik lì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdra/ukdram_004.mp3)
+- (B2) (A LOT) suddenly or obviously (đáng kể).
+  - *AI [dramatically](b.md#dramatically) reduces problem space and the number of [permutations](u.md#permutation).*
 ##### elegant
 - adj /e' lɪg ɡə`nt/
   - (B2) graceful and attractive in appearance or behaviour (thanh lịch/sang trọng/trang nhã).
