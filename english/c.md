@@ -110,9 +110,11 @@
 ##### profile
 - n /prə'ʊ faɪ`l/
   - (C1) the amount of public attention and notice that s/t receives (tầm).
-##### prospect
-- n /prɒ's pe.kt/
-  - (C2) the idea of s/t that will or might happen in the future (viễn cảnh).
+## prospect
+### n /ˈprɒs.pekt/ (prós spẹkt) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpro/ukprose002.mp3)
+- (C2) the idea of s/t that will or might happen in the future (viễn cảnh).
+- the person who might be chosen, for example as an employee or a customer (ứng viên; khách hàng tiềm năng).
+  - *When a [prospect](c.md#prospect) becomes a customer, we will transfer the External References data to these tables*.
 ##### prospective
 - adj  /prə` spe'k tɪ.v/
   - (C1) [potential](b.md#potential)
