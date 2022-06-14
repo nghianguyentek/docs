@@ -79,6 +79,10 @@
   - to send a letter, etc., especially from s/o's old address to their new address, or to send a letter, email, etc. that you have received to s/o else (chuyển tiếp).
 - n /fɔ'ː wə.d/
   - a player who is an attacking position in a team (tiền đạo).
+## glitch
+### n /ɡlɪtʃ/ (glítch) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukg/ukgli/ukglitc001.mp3)
+- a small problem or fault that prevents s/t from being successful or working as well as it should (trục trặc).
+  - *Please note that there was a technical [glitch](u.md#glitch) in the Self Service Portal which was fixed now.*
 ##### granularity
 - n  /ɡræn nju læ' rə ti`/
   - the quality of including a lot of small details (chi tiết). 
