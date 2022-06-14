@@ -180,6 +180,10 @@
 ### n /ˈsɪn.θə.sɪs/ (sín thơs sịs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksyn/uksynta004.mp3)
 - (MIX) the mixing of different ideas, influences, or things to make a whole that is different, or new (tổng hợp).
   - *AI contributed to advancements in medical research through research [synthesis](u.md#synthesis).*
+## tariff
+### n /ˈtær.ɪf/ (thá rịph) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukt/uktar/uktarge002.mp3)
+- (TAX) a charge or a list of charges either for services or goods entering a country (thuế).
+  - *Import and export tariffs*
 ##### tore
 - ps of [tear](b.md#tear) /tɔːr/
 ##### unambiguous
