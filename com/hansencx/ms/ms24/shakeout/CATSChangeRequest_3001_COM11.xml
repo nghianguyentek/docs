@@ -1,0 +1,33 @@
+<xml-fragment xmlns:tns="http://peace.com/marketsolution/canonical" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <TransactionData>
+        <TransactionType>CATSChangeRequest</TransactionType>
+        <ChangeReasonCode>3101</ChangeReasonCode>
+        <Recipient>NEMMCO</Recipient>
+        <MarketTransactionStatus>REQ</MarketTransactionStatus>
+        <Direction>O</Direction>
+        <SupplyPointClass>SMALL</SupplyPointClass>
+        <Participant>CNRGYP</Participant>
+        <Initiator>CNRGYP</Initiator>
+        <UniqueServiceIdentifier>42040051145</UniqueServiceIdentifier>
+        <Priority>Medium</Priority>
+        <RoleStatus>C</RoleStatus>
+        <Role>LNSP</Role>
+        <ScheduledDate>2012-01-01</ScheduledDate>
+        <RegulatoryAreaCode>NSW</RegulatoryAreaCode>
+        <TransactionDate>2022-06-15T22:33:48.852+12:00</TransactionDate><TransactionID>22549075</TransactionID><ReceiptDate>2022-06-15T22:33:48.852+12:00</ReceiptDate></TransactionData>
+    <Services>
+        <Service>
+            <Meters>
+                <Meter>
+                    <MeterNumber>GEN3812</MeterNumber>
+                    <Registers>
+                        <Register>
+                            <RegisterNumber>1</RegisterNumber>
+                            <NetworkTariffCode>8400</NetworkTariffCode>
+                        </Register>
+                    </Registers>
+                </Meter>
+            </Meters>
+        </Service>
+    </Services>
+</xml-fragment>

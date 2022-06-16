@@ -1,5 +1,7 @@
 # Apache Ant
 *Apache Ant is a Java library and command-line tool for building applications, especially those written in Java, C, and C++.*
+- [Build-file](#build-file)
+- [Built-in tasks](#built-in-tasks)
 
 ## Build-file
 *An Ant build-files is an `.xml` file, often named `build.xml`, and must have one and only one [`project`](#project-element) element. A [`project`](#project-element) may have one or more [`property`](#property-element) or [`path`](#path-element) but must have at least one [`target`](#target-element) (i.e., the `default` target). Each [`target`](#target-element) has zero and more tasks, which are either [built-in](#built-in-tasks) or user-defined.*
@@ -71,6 +73,21 @@
 </project>
 ```
 ## Built-in tasks
+- Debug
+  - [echo](#echo-task)
+- File and directory
+  - [mkdir](#mkdir-task)
+  - [copy](#copy-task)
+  - [delete](#delete-task)
+  - [move](#move-taks)
+  - [chmod](#chmod-task)
+- Java
+  - [javac](#javac-task)
+- Shell
+  - [exec](#exec-task)
+- Datetime
+  - [tstamp](#tstamp-task)
+
 ### `chmod` task
 Change permissions of a file or all files in specific directories.
 #### Attributes
@@ -84,6 +101,7 @@ Change permissions of a file or all files in specific directories.
 ```xml
 <chmod file="file" perm="ugo+x"/>
 ```
+
 ### `copy` task
 Copy files and directories to a destination directory.
 
@@ -121,6 +139,38 @@ Delete files or directories.
     <fileset dir="target_dir" includes="*.log"/>
 </delete>
 ```
+
+### `move` task
+Move a file or files and subdirectories of a directory.
+#### Attributes
+| Name  | Description                                                                                                                                    | Required |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
+| todir | The directory to move, including all its files and subdirectories. We should use [fileset](ant.md#fileset-element) to specify the moved files. |   Y(N)   |
+#### Examples
+- Moving all files and subdirectories of a specific directory.
+```xml
+<move todir="target_dir">
+    <fileset dir="from_dir"/>
+</move>
+```
+- Moving `.log` files only.
+```xml
+<move todir="target_dir">
+    <fileset dir="from_dir" includes="*.log"/>
+</move>
+```
+
+### `tstamp` task
+Set current day, time, or datetime into a property for later use by using `format` element.
+
+#### Examples
+- Getting current datetime and set it into a property, `NOW`.
+```xml
+<tstamp>
+  <format property="NOW" pattern="yyyyMMddHHmmssSSS" />
+</tstamp>
+```
+
 ### `echo` task
 Display messages to a file descriptor; default value is the standard output.
 #### Attributes
