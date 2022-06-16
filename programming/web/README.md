@@ -1,8 +1,11 @@
 # Web Programming
+Web programming is closely related to the Internet and Web (sites and pages). While the Internet is the infrastructure, 
+the Web is the most common service built on top of it to share information.
 - [History of web and Internet (Interconnected network)](#history-of-web-and-internet-interconnected-network)
   - [History of Internet](#history-of-internet)
   - [History of web](#history-of-web-www-or-world-wide-web)
 - [How the web works?](#how-the-web-works)
+  - [Why we separate the web content into HTML, CSS, and JavaScript files?](#why-we-separate-the-web-content-into-html-css-and-javascript-files)
 ## History of web and Internet (Interconnected network)
 ### History of Internet
 - 1960: Joseph Licklider published his idea of an interconnected network.
@@ -29,10 +32,10 @@ Web works based on the client server model (architecture) with:
 - [DNS (Domain Name Server)](/network/protocol/routing/dns.md)
 - [HTTP (HyperText Transfer Protocol)](/network/protocol/file/http.md)
 - Public assets:
-  - HTML (HyperText Markup Language) Document
-  - CSS (Cascading StyleSheets)
-  - js (JavaScript)
-  - Audio, video, etc.
+  - [HTML (HyperText Markup Language)](html.md) documents
+  - [CSS (Cascading StyleSheets)](css.md) files
+  - [js (JavaScript)](/programming/lang/js/README.md) files
+  - Images, audios, videos, etc.
 ```mermaid
 sequenceDiagram
 participant Client (Browser)
@@ -48,3 +51,9 @@ Server-->>Client (Browser): HTTP css/js response
 Note over Client (Browser): Parsing css/js response and building CSSOM/compiling js codes
 Note over Client (Browser): Rendering
 ```
+### Why we separate the web content into HTML, CSS, and JavaScript files?
+Since HTML, CSS, and JavaScript are for static content, style (e.g., formatting and layout), and dynamic content, respectively. It's all about a 
+practice of the loosely coupling principle: 
+  - Code reuse and easy maintenance.
+  - Decrease download size and enable caching.
+  - Multiple views of the same content for different purposes, devices, etc.
