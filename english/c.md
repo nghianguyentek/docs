@@ -101,6 +101,10 @@
 ##### negligibly
 - adj /ne'ɡ lɪ dʒə bli`/
   - (C2) in a [negligible](#negligible) way.
+## notably
+### adv /ˈnəʊ.tə.bli/ (nấu tặb blì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukn/uknos/uknosh_012.mp3)
+- especially or most importantly ().
+  - *The document has been updated over time, [notably](#notably) thanks to the many Web authors who shared their own [rationale](u.md#rationale) and motivation for using Web Quality checking tools.*
 ##### notorious
 - adj /nəʊ tɔ'ː ri ə.s/
   - (C1) infamous: famous for s/t bad (nổi/khét tiếng).

@@ -31,6 +31,10 @@
 ##### concrete
 - n /kɒ'ŋ kri.t/
   - (B2) a very hard building material made by mixing together cement, sand, small stones, and water (bê tông).
+## contemporary
+### adj /kənˈtem.pər.ər.i/ (kờn thém pơ rì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcon/ukconta017.mp3)
+- existing or happening now, and therefore seeming modern ().
+  - *While [contemporary](b.md#) Web browsers do an increasingly good job of parsing even the worst HTML "tag soup", some errors are not always caught gracefully.*
 ##### crisis
 - n /kra'ɪ sɪ.s/
   - (B2) a time of great disagreement, confusion, or suffering (khủng hoảng).

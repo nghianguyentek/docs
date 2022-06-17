@@ -152,6 +152,10 @@
 ##### polymorphous
 - adj /pɒl lɪ mɔ'ː fə.s/
   - having or experiencing many forms or stages of development (đa hình).
+## rationale
+### n /ˌræʃ.əˈnɑːl/ (rás shân nàu-l) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukr/ukras/ukrasp_023.mp3)
+- the reasons ỏ intentions that cause a particular set or beliefs or actions (lý do, cơ sở lý luận).
+  - *The document has been updated over time, [notably](c.md#notably) thanks to the many Web authors who shared their own [rationale](u.md#rationale) and motivation for using Web Quality checking tools.*
 ##### reincarnation
 - n /ri'ː ɪn kɑː ne'ɪ ʃə`n/
   - dead person's spirit returns to life in another body (chuyển thế/sinh; đầu thai; luân hồi).
