@@ -17,6 +17,10 @@
   - (B2) used to say you have read or been told s/t, although you are not certain it is true.
   - (B2) used when the real situation is different from what you thought it was.
   - (B2) used to say that s/t seems to be true, although it is not certain.
+## behaviour
+### n /bɪˈheɪ.vjər/ (bì hấy vi ờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukb/ukbeg/ukbegui007.mp3)
+- (B1) the way that s/o behaves in a particular situation (hành vi).
+  - *JavaScript adds behaviour to web pages.*
 ##### compromise
 - n /kɒ'm prə\` maɪ`z/
   - (B2) an agreement (thoả hiệp)

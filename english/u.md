@@ -63,6 +63,11 @@
 ##### cumulative
 - adj /kju'ː mə\` lə` tɪ.v/
   - [accumulative](u.md#accumulative) ~ increasing by one addition after another (tích luỹ).
+## dispel
+### v /dɪˈspel/ (địs spéo-l) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdis/ukdisor018.mp3)
+- to remove fear, doubts, and false ideas, usually by proving them wrong or unnecessary (loại bỏ, xoá tan).
+  - *This document attempts to answer the questions many people have regarding why they should bother with Validating 
+their websites and tries to [dispel](#dispel) a few common myths.*
 ## eavesdrop
 ### v /i'ːvz drɒp/
 - to listen to s/o's private conversation w/o them knowing (nghe lén, nghe trộm).
@@ -93,6 +98,11 @@
 ##### handshake
 - n /hæ'nd ʃeɪ.k/
   - a greeting or an act to show agreement by holding and shaking each other's right hand (bắt tay).
+## impair
+### v /ɪmˈpeər/ (i`m pe'ơ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uki/ukimm/ukimmod026.mp3)
+- to spoil s/t or make it weaker so that it is less effective (suy giảm).
+  - *Web users who are visually impaired can use a piece of software known as a "screen reader" to access the 
+information through sound rather than sight.*
 ##### incarnation
 - n /ɪn kɑː ne'ɪ ʃə`n/
   - A particular life in [reincarnation](u.md#reincarnation) (kiếp)
@@ -101,8 +111,15 @@
   - S/o who often finds it difficult to sleep (mất ngủ). 
 ## interoperability
 ### n /ɪ'n tə rɒ'p pə rə\` bɪ' lə ti`/
-- the degree to which two products, programs, etc. can be used together, or the quality of being able to be used together (khả năng tương thích). 
-  - *Token Ring, in its day, did commonly offer a configuration option to allow Ethernet [interoperability](u.md#interoperability).*
+- the degree to which two products, programs, etc. can be used together, or the quality of being able to be used 
+together (khả năng tương thích). 
+  - *Token Ring, in its day, did commonly offer a configuration option to allow Ethernet 
+[interoperability](u.md#interoperability).*
+## intertwined
+### adj /ˌɪn·tərˈtwɑɪnd/ (in thơ thoái-ân-đ) [🔊](https://dictionary.cambridge.org/media/english/us_pron/i/int/inter/intertwined.mp3)
+- twisted together or closely connected to be difficult to separate (hòa quyện, thắt chặt).
+  - *But just because the Internet and the WWW are firmly [intertwined](#intertwined) with each other, it doesn't mean 
+they're synonymous*
 ##### jurisdiction
 - n /dʒʊ.ə rɪ.s dɪ'k ʃə`n/
   - The authority of a court or official organisation to make decisions and judgments (thẩm quyền/quyền tài phán).
@@ -191,9 +208,13 @@
 ## tariff
 ### n /ˈtær.ɪf/ (thá rịph) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukt/uktar/uktarge002.mp3)
 - (TAX) a charge or a list of charges either for services or goods entering a country (thuế).
-  - *Import and export tariffs*
+  - *Import and export [tariffs](#tariff)*
 ##### tore
 - ps of [tear](b.md#tear) /tɔːr/
+## ubiquitous
+### adj /juːˈbɪk.wɪ.təs/ (jìu bík qui tợs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukt/uktyp/uktypho019.mp3)
+- seeming to be everywhere (phổ biến)
+  - *The Internet is so [ubiquitous](#ubiquitous) it's hard to imagine life without it.*
 ##### unambiguous
 - adj /ʌn næm bɪ'ɡ gju ə.s/
   - clear: expressed in a way that makes it completely clear what is meant (rõ ràng).
