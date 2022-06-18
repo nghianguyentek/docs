@@ -201,6 +201,10 @@ they're synonymous*
 ##### spoof
 - v /spuːf/
   - to try to make s/o believe in s/t that is not true, as a joke (lừa; giả mạo)
+## surveillance
+### n /səˈveɪ.ləns/ (sờ vếy lờns) [🔊](https://dictionary.cambridge.org/vi/media/english/uk_pron/u/uks/uksur/uksurro008.mp3)
+- the careful watching of a person or place, especially by the police or army, because of a crime that has happened or is expected (giám sát).
+  - *Computer network [surveillance](u.md#surveillance)*
 ## synthesis
 ### n /ˈsɪn.θə.sɪs/ (sín thơs sịs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksyn/uksynta004.mp3)
 - (MIX) the mixing of different ideas, influences, or things to make a whole that is different, or new (tổng hợp).
@@ -234,4 +238,6 @@ they're synonymous*
   - becoming worse
 - n /wɜ'ː sə\`n nɪ`ŋ/
   - the process of becoming worse (sự suy thoái/giảm).
+
+https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN
 
