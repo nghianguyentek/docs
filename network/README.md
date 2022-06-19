@@ -1,7 +1,18 @@
-# Introduction
+# Network
+A system of interconnected devices for communication.
+## Network categories
+### By size
+- [LAN (Local Area Network)](lan.md)
+- MAN (Metropolitan Area Network)
+- WAN (Wide Area Network)
+- [Internet](/network/internet.md)
+### By transmission
+- Connection-oriented
+- Connectionless
 ## Transmission types
 - Broadcast: sends data to all nodes in a network.
 - Unicast: sends data to a specific node in a network.
+- Multicast: sends data to a nodes group in a network.
 ## Design a network protocol or set up a network
 ### Criteria
 - Transmission
@@ -9,15 +20,6 @@
 - Technology
 - User group
 - Application
-## Network categories
-### By transmission
-- Connection-oriented
-- Connectionless
-### By size
-- [LAN (Local Area Network)](lan.md)
-- MAN (Metropolitan Area Network)
-- WAN (Wide Area Network)
-- Internet
 ## Terms
 ### Bandwidth
 [Data rate](#data-rate) (more common) or [throughput](#throughput).

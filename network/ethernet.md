@@ -41,7 +41,7 @@ In the front of one Ethernet packet, there may be a preamble (i.e., a block of 1
 
 ## Transmission types
 - Unicast
-- Flooding [(broadcast)](intro.md#transmission-types)
+- Flooding [(broadcast)](README.md#transmission-types)
 ### Encoding and framing
 - Encoding: identifying bit stream
 - Framing: identifying packets

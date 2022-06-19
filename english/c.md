@@ -17,6 +17,10 @@
 ##### criterion
 - n /kra\`ɪ tɪ'ə ri ə`n/
   - (C1) a standard by which you judge, decide about, or deal with something (tiêu chí).
+## dialogue
+### n /ˈdaɪ.ə.lɒɡ/ (đái ơ log) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
+- (C2) formal talks between opposite countries, political groups, etc. (đối thoại).
+  - *The only way to protect our privacy is to [sustain](c.md#sustain) [dialogue](c.md#dialogue) with law enforcement like the Government aiming for [transparency](u.md#transparency) and [accountability](u.md#accountability) to social media [surveillance](u.md#surveillance) systems.*
 ## discipline
 ### n /ˈdɪs.ə.plɪn/ (di's sợp plìn) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
 - (C2) (SUBJECT) a particular area of study, especially a subject studied at a college or university (lĩnh vực).
@@ -54,6 +58,10 @@
 ##### influential
 - adj /ɪn flu e'n ʃə`l/
   - (C1) having a lot of [influence](b.md#influence) on s/o or s/t
+## insight
+### n /ˈɪn.saɪt/ (ín sài-t) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uki/ukins/ukinsec024.mp3)
+- (the ability to have) a clear, deep, and sometimes sudden understanding of a complicated problem or situation (hiểuf biết).
+  - *Record new insights and problem-solving strategies realized during discussions with fellow students and instructors.*
 ##### insomnia
 - n /ɪ`n sɒ'm niə/
   - (C2) the condition of unable to sleep, over a period of time (mất ngủ).
@@ -142,6 +150,10 @@
 ##### serial
 - adj /sɪ'ə ri ə`l/
   - (C1) one to another ((tội ác)hàng loạt, (phim/truyện)dài tập, nối tiếp).
+## sustain
+### v /səˈsteɪn/ (sờ stến) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksus/uksuspi003.mp3)
+- (C2) to keep alive (duy trì).
+  - *The only way to protect our privacy is to [sustain](c.md#sustain) [dialogue](c.md#dialogue) with law enforcement like the Government aiming for [transparency](u.md#transparency) and [accountability](u.md#accountability) to social media [surveillance](u.md#surveillance) systems.*
 ##### successive
 - adj /sə`k se's sɪ.v/
   - (C2): sequential/[serial](#serial); happening one after the other without any break (liên tiếp)

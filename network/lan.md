@@ -2,7 +2,7 @@
 LAN is a system consists of:
 - Links
 - Network interface hardware
-- [Protocols](intro.md#protocol)
+- [Protocols](README.md#protocol)
 
 that is used to connect local machines together for communication or data transfer.
 ## Types

@@ -6,6 +6,10 @@
 ##### accelerated
 - adj /ə.k se' lə reɪ tɪ.d/
   - faster than usual (tăng tốc).
+## accountability
+### n /əˌkaʊn.təˈbɪl.ə.ti/ (ờ kao-n tờ bí lơ tì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uka/ukacc/ukacces029.mp3)
+- the fact of being responsible for what you do and able to give a satisfactory reason for it, or degree to which this happens (giải trình).
+  - *The only way to protect our privacy is to [sustain](c.md#sustain) [dialogue](c.md#dialogue) with law enforcement like the Government aiming for [transparency](u.md#transparency) and [accountability](u.md#accountability) to social media [surveillance](u.md#surveillance) systems.*
 ##### accumulative
 - adj /ə\` kju'ː mə\` lə` tɪ.v/
   - [cumulative](u.md#cumulative) ~ gradually increasing in number or amount (tích luỹ).
@@ -73,6 +77,10 @@ their websites and tries to [dispel](#dispel) a few common myths.*
 - to listen to s/o's private conversation w/o them knowing (nghe lén, nghe trộm).
   - *Unlike with ARP, other hosts on the LAN are not expected to [eavesdrop](u.md#eavesdrop) on the initial Neighbour Solicitation message.*
   - *These two attacks can have the goal either of [eavesdrop](u.md#eavesdrop)ping or of denial of service.*
+## elicit
+### v /iˈlɪs.ɪt/ (i lís sịt) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uke/ukele/ukelect027.mp3)
+- (EDUCATION) to get a student to provide or remember a fact, response, etc. rather than telling them the answer (khơi gợi).
+  - *The Learning Journal section helps [elicit](u.md#elicit) topics of interest or challenging ones that need improvement.*
 ##### evasion
 - n /ɪ\` veɪ' ʒə`n/
   - the act of avoiding s/t or s/o (lảng/trốn tránh).
@@ -205,16 +213,22 @@ they're synonymous*
 ### n /səˈveɪ.ləns/ (sờ vếy lờns) [🔊](https://dictionary.cambridge.org/vi/media/english/uk_pron/u/uks/uksur/uksurro008.mp3)
 - the careful watching of a person or place, especially by the police or army, because of a crime that has happened or is expected (giám sát).
   - *Computer network [surveillance](u.md#surveillance)*
+  - *The only way to protect our privacy is to [sustain](c.md#sustain) [dialogue](c.md#dialogue) with law enforcement like the Government aiming for [transparency](u.md#transparency) and [accountability](u.md#accountability) to social media [surveillance](u.md#surveillance) systems.*
 ## synthesis
 ### n /ˈsɪn.θə.sɪs/ (sín thơs sịs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksyn/uksynta004.mp3)
 - (MIX) the mixing of different ideas, influences, or things to make a whole that is different, or new (tổng hợp).
   - *AI contributed to advancements in medical research through research [synthesis](u.md#synthesis).*
+  - *The Learning Journal section is a platform for the [synthesis](u.md#synthesis) of knowledge and ideas.*
 ## tariff
 ### n /ˈtær.ɪf/ (thá rịph) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukt/uktar/uktarge002.mp3)
 - (TAX) a charge or a list of charges either for services or goods entering a country (thuế).
   - *Import and export [tariffs](#tariff)*
 ##### tore
 - ps of [tear](b.md#tear) /tɔːr/
+## transparency
+### n /trænˈspær.ən.si/ (tran spár rờn sì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukt/uktra/uktrans112.mp3)
+- (OPEN) the quality of being done in an open way without secrets (công khai minh bạch).
+  - *The only way to protect our privacy is to [sustain](c.md#sustain) [dialogue](c.md#dialogue) with law enforcement like the Government aiming for [transparency](u.md#transparency) and [accountability](u.md#accountability) to social media [surveillance](u.md#surveillance) systems.*
 ## ubiquitous
 ### adj /juːˈbɪk.wɪ.təs/ (jìu bík qui tợs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukt/uktyp/uktypho019.mp3)
 - seeming to be everywhere (phổ biến)
