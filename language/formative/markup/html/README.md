@@ -30,7 +30,7 @@ where
 - `<!DOCTYPE html>` is a declaration to indicate this is an HTML5 document (the current version of HTML standard).
 - `html`, `head`, `meta`, `title`, `body`, `h1` are HTML [elements](#html-element).
 - `lang`, `charset` are element attribute.
-- `kihon-vn-Home` and `Welcome to HTML world!` are element contents content.
+- `kihon-vn-Home` and `Welcome to HTML world!` are element contents.
 
 You can imagine the structure of an HTML document like a tree. In the upper example, our tree is
 - Document root
