@@ -30,7 +30,7 @@ where
 - `<!DOCTYPE html>` is a declaration to indicate this is an HTML5 document (the current version of HTML standard).
 - `html`, `head`, `meta`, `title`, `body`, `h1` are HTML [elements](#html-element).
 - `lang`, `charset` are element attribute.
-- `kihon-vn-Home` and `Welcome to HTML wolrd!` are element contents content.
+- `kihon-vn-Home` and `Welcome to HTML world!` are element contents content.
 
 You can imagine the structure of an HTML document like a tree. In the upper example, our tree is
 - Document root
@@ -57,7 +57,7 @@ In the opening tag, we can specify attributes of the element as you see
 
 There are few elements (i.e., all other elements must have) who don't need the closing tag (because they don't need the inner content in general) 
 
-`<meta charset="UTF8">`
+`<meta charset="UTF-8">`
 
 In general, pre-defined elements are enough for us to build our sites. However, in some specific (often advanced) cases, we need to create our own custom elements in the [JavaScript](/language/formative/programming/js) section.
 ## Element Attribute
