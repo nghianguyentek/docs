@@ -17,9 +17,9 @@ Web works based on the client server model (architecture) with:
 - [DNS (Domain Name Server)](/network/protocol/routing/dns.md)
 - [HTTP (HyperText Transfer Protocol)](/network/protocol/file/http.md)
 - Public assets:
-  - [HTML (HyperText Markup Language)](/programming/web/html.md) documents
-  - [CSS (Cascading StyleSheets)](/programming/web/css.md) files
-  - [js (JavaScript)](/programming/lang/js/README.md) files
+  - [HTML (HyperText Markup Language)](/language/formative/markup/html/README.md) documents
+  - [CSS (Cascading StyleSheets)](/language/formative/stylesheet/css.md) files
+  - [js (JavaScript)](/language/formative/programming/js/README.md) files
   - Images, audios, videos, etc.
 ```mermaid
 sequenceDiagram
