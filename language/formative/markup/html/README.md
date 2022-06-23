@@ -1,4 +1,6 @@
 # HTML (HyperText Markup Language)
+*You should read the [Web programming](/programming/web) before reading this.*
+
 Like other markup languages, HTML is all about elements represented by tags and their attributes. Working with them, we
 need to pay attention to their semantics and what attributes should be used especially required ones. Since HTML became
 a standard, we should use validation tools such as the [W3C Markup Validation Service](https://validator.w3.org/) 
