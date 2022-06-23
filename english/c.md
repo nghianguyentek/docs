@@ -58,9 +58,11 @@
 ##### influential
 - adj /ɪn flu e'n ʃə`l/
   - (C1) having a lot of [influence](b.md#influence) on s/o or s/t
+## initiative
+### n /ɪˈnɪʃ.ə.tɪv/
 ## insight
 ### n /ˈɪn.saɪt/ (ín sài-t) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uki/ukins/ukinsec024.mp3)
-- (the ability to have) a clear, deep, and sometimes sudden understanding of a complicated problem or situation (hiểuf biết).
+- (the ability to have) a clear, deep, and sometimes sudden understanding of a complicated problem or situation (hiểu biết).
   - *Record new insights and problem-solving strategies realized during discussions with fellow students and instructors.*
 ##### insomnia
 - n /ɪ`n sɒ'm niə/

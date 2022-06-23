@@ -49,6 +49,10 @@
 ##### despite
 - prep /dɪs spaɪ't/
   - (B1) without taking any notice of or influenced by (bất chấp); not prevented by (mặc dù).
+## disability
+### n /ˌdɪs.əˈbɪl.ə.ti/ (dis sờb bí lơ tì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdir/ukdirnd005.mp3)
+- (B2) an illness, injury, or condition that makes it difficult for s/o to do some things that other people do, and that is usually permanent for lasts for a long time (khuyết tật).
+  - *Web accessibility means people with [disabilities](b.md#disability) can use the web equally.*
 ## discipline
 ### n /ˈdɪs.ə.plɪn/ (di's sợp plìn) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukd/ukdis/ukdisci004.mp3)
 - (B2) (TRAINING) training that makes people more willing to obey or more able to control themselves, often in 

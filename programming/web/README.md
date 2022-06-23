@@ -43,3 +43,9 @@ Since HTML, CSS, and JavaScript are for static content, style (e.g., formatting 
   - Code reuse and easy maintenance.
   - Decrease download size and enable caching.
   - Multiple views of the same content for different purposes, devices, etc.
+## Web accessibility
+Everyone should be able to use web equally, especially people with disabilities. Our sites should support web accessibility as much as we can. There are some good sources for this:
+- Web Content Accessibility Guidelines (WCAG, aka ISO 405000).
+- Authoring Tool Accessibility Guidelines (ATAG).
+- User Agent Accessibility Guidelines (UAAG).
+- [W3C Web Accessibility Initiative](https://w3.org/wai)
