@@ -86,7 +86,7 @@ Based on the output of the analysis phrase, we can work on:
   - How many pages should we have?
   - The navigation between our pages
 
-*The output can be a sitemap, and any presentable navigations (e.g., a mockup, hand-writing papers, or an MS PowerPoint slides).*
+*The output can be a sitemap, and any presentable navigation (e.g., a mockup, hand-writing papers, or an MS PowerPoint slides).*
 
 - The relationships between our data and pages.
 - Identifying (UI and server-side) components
@@ -102,7 +102,7 @@ Based on the output of the analysis phrase, we can work on:
 ### Implementation
 ### Testing
 #### Functional testing
-#### Device compatability testing
+#### Device compatibility testing
 - Run validation tools
   - [W3 Markup Validation Service](https://validator.w3.org)
   - [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
