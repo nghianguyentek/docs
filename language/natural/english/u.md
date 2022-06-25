@@ -139,6 +139,10 @@ they're synonymous*
 - a temporary failure (mất (tạm thời)).
   - *Memory lapse (mất trí nhớ (tạm thời)).*
   - *A lapse of concentration (mất tập trung).*
+## lede 
+### n /liːd/ (li-d)
+- the first sentence or paragraph of a news article that gives the main point or points of the story.
+  - *The `b` element represents a span of text to which attention is being drawn for [utilitarian](u.md#utilitarian) purposes without [conveying](c.md#convey) any extra importance and with no [implication](c.md#implication) of an alternate voice or mood such as keywords or an article [lede](u.md#lede).*
 ##### lest
 - conj /lest/
   - in order to prevent any possibility that s/t will happen (vì).
@@ -239,6 +243,10 @@ they're synonymous*
 ##### unambiguously
 - adv /ʌn næm bɪ'ɡ gju ə.s li`/
   - in unambiguous way
+## utilitarian
+### adj /ˌjuː.tɪ.lɪˈteə.ri.ən/ (ju ti li thé ri ần) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uku/ukush/ukusher019.mp3)
+- designed to be useful rather than decorative (thực dụng).
+  - *The `b` element represents a span of text to which attention is being drawn for [utilitarian](u.md#utilitarian) purposes without [conveying](c.md#convey) any extra importance and with no [implication](c.md#implication) of an alternate voice or mood such as keywords or an article [lede](u.md#lede).*
 ##### violate
 - adj /va'ɪ ə leɪ.t/
   - to break or act against s/t, especially a law, agreement, principle, or s/t that should be treated with respect (vi phạm).
@@ -252,6 +260,3 @@ they're synonymous*
   - becoming worse
 - n /wɜ'ː sə\`n nɪ`ŋ/
   - the process of becoming worse (sự suy thoái/giảm).
-
-https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN
-

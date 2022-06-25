@@ -2,18 +2,22 @@
 ##### broadly
 - adv /brɔ'ːd li`/
   - (C1) generally (một cách chung chung)
-##### concern
-- v /kə`n sɜːn/
-  - (C1) to cause worry to s/o (khiến lo lắng).
 ##### compromise
 - v /kɒ'm prə\` maɪ`z/
   - (C2) harm (tổn hại/gây nguy hại)
+##### concern
+- v /kə`n sɜːn/
+  - (C1) to cause worry to s/o (khiến lo lắng).
 ##### concrete
 - adj /kɒ'ŋ kri.t/
   - (C1) clear and certain, or real and existing in a form that can be seen or felt (cụ thể).
 ##### confine
 - v /kə`n fa'ɪ n/
   - (C2) to limit an activity, person, or problem in some way (giới hạn). 
+## convey
+### v /kənˈveɪ/ (kờn vấy) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcon/ukconve003.mp3)
+- (C1) (COMMUNICATE) to express a though, feeling, or idea so that it is understood by other people (diễn đạt, truyền đạt).
+  - *The `b` element represents a span of text to which attention is being drawn for [utilitarian](u.md#utilitarian) purposes without [conveying](c.md#convey) any extra importance and with no [implication](c.md#implication) of an alternate voice or mood such as keywords or an article [lede](u.md#lede).*
 ##### criterion
 - n /kra\`ɪ tɪ'ə ri ə`n/
   - (C1) a standard by which you judge, decide about, or deal with something (tiêu chí).
@@ -52,6 +56,10 @@
 ##### immune
 - adj /ɪ`m mjun/
   - (C2) protected against a particular disease by particular substances in the blood (miễn nhiễm/dịch).
+## implication
+### n /ˌɪm.plɪˈkeɪ.ʃən/ (im pli kấy shần) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uki/ukimp/ukimpet023.mp3)
+- (C2) an occasion when you seem to suggest something without saying it directly (ngụ ý).
+  - *The `b` element represents a span of text to which attention is being drawn for [utilitarian](u.md#utilitarian) purposes without [conveying](c.md#convey) any extra importance and with no [implication](c.md#implication) of an alternate voice or mood such as keywords or an article [lede](u.md#lede).*
 ##### infinite
 - adj /'ɪn fɪ nə.t/
   - (C2) without limits; extremely large or great; [forever](b.md#forever).
