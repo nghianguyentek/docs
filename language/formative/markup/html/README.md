@@ -13,6 +13,9 @@ to ensure our documents are most compatibly.
     - [Omitted](#omitted)
     - [Text content](#text-content)
     - [HTML content](#html-content)
+- [A simple document](#a-simple-document)
+  - [Heading elements](#heading-elements)
+  - [Paragraph element](#paragraph-element)
 ## A HTML document sample
 *You can copy the below codes into a file, for example, index.html, and open it in a browser to see the result.*
 ```html
@@ -147,3 +150,128 @@ However, some are strictly one in the children case. For example, one HTML docum
 
 There is another case, when one element can't be a child of another element. For example, `meta` and `title` elements can't be in a
 `body` element.
+## A simple document
+An HTML document like office document (e.g., Word or OpenOffice documents), has headings, paragraphs, lists, images, and text formations.
+
+*Note that if I didn't mention to the closing tag, it means they required.* 
+### Heading elements
+There are six heading levels from most important (and bigger) to less important (and smaller) in the descending order:
+- `h1`: should appear one-per-document only.
+- `h2`
+- `h3`
+- `h4`
+- `h5`
+- `h6`
+
+If your HTML has these headings
+```html
+<h1>This is a <code>h1</code> heading</h1>
+<h2>This is a <code>h2</code> heading</h2>
+<h3>This is a <code>h3</code> heading</h3>
+<h4>This is a <code>h4</code> heading</h4>
+<h5>This is a <code>h5</code> heading</h5>
+<h6>This is a <code>h6</code> heading</h6>
+```
+the output will be 
+<h1>This is a <code>h1</code> heading</h1>
+<h2>This is a <code>h2</code> heading</h2>
+<h3>This is a <code>h3</code> heading</h3>
+<h4>This is a <code>h4</code> heading</h4>
+<h5>This is a <code>h5</code> heading</h5>
+<h6>This is a <code>h6</code> heading</h6>
+
+### Paragraph element
+- `p`
+
+For example,
+
+`<p>A paragraph is a distinct section of writing covering one topic. A paragraph will usually contain more than one sentence. A typical paragraph will be 5-7 sentences, but this is by no means a rule. The length is determined by the topic and the content.</p>`
+and the result is below:
+<p>A paragraph is a distinct section of writing covering one topic. A paragraph will usually contain more than one sentence. A typical paragraph will be 5-7 sentences, but this is by no means a rule. The length is determined by the topic and the content.</p>
+
+### Listing elements
+There are three listing types:
+- Unordered list: `ul`
+- Ordered list: `ol`
+- Description list `dl`
+Each list has one or more list items `li` as
+```html
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+<dl>
+  <dt>Item 1</dt>
+  <dd>Item 1 description</dd>
+  <dt>Item 2</dt>
+  <dd>Item 2 description...</dd>
+</dl>
+```
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+<dl>
+  <dt>Item 1</dt>
+  <dd>Item 1 description</dd>
+  <dt>Item 2</dt>
+  <dd>Item 2 description...</dd>
+</dl>
+Of course, we can create nested lists as
+
+```html
+<ol>
+  <li>
+    <h5>Item Type 1</h5>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </li>
+  <li>
+    <h5>Item Type 2</h5>
+    <dl>
+      <dt lang="en-US"><dfn>Behavior</dfn></dt>
+      <dt lang="en-GB"><dfn>Behaviour</dfn></dt>
+      <dd>the way that someone behaves</dd>
+      <dt>tick</dt>
+      <dd>a very short time</dd>
+      <dd>the sound clocks and watches make every second</dd>
+    </dl>
+  </li>
+</ol>
+```
+<ol>
+  <li>
+    <h5>Item Type 1</h5>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </li>
+  <li>
+    <h5>Item Type 2</h5>
+    <dl>
+      <dt lang="en-US"><dfn>Behavior</dfn></dt>
+      <dt lang="en-GB"><dfn>Behaviour</dfn></dt>
+      <dd>the way that someone behaves</dd>
+      <dt>tick</dt>
+      <dd>a very short time</dd>
+      <dd>the sound clocks and watches make every second</dd>
+    </dl>
+  </li>
+</ol>
