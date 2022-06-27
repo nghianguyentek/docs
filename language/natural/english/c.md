@@ -2,6 +2,10 @@
 ##### broadly
 - adv /brɔ'ːd li`/
   - (C1) generally (một cách chung chung)
+## clarity
+### adj /ˈklær.ə.ti/ (klá rơ tì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcla/ukclap_016.mp3)
+- (C2) (EASY TO UNDERSTAND) the quality of being clear and easy to understand (rõ ràng).
+  - *If the meaning of an image is readily apparent to the viewer, we have visual [clarity](c.md#clarity).*
 ##### compromise
 - v /kɒ'm prə\` maɪ`z/
   - (C2) harm (tổn hại/gây nguy hại)
@@ -129,6 +133,14 @@
 ##### notoriously
 - adv /nəʊ tɔ'ː ri ə.s li`/
   - (C1) in a [notorious](c.md#notorious) way.
+## paramount
+### adj /ˈpær.ə.maʊnt/ (pá rơ mào-t) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpar/ukparag015.mp3)
+- (C2) more important thant anything else (tối quan trọng).
+  - *Therefore, content is [paramount](c.md#paramount).*
+## pragmatic
+### adj /præɡˈmæt.ɪk/ (prặg má-tịk) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpr_/ukpr___011.mp3)
+- (C2) solving problems in a sensible way that suits the conditions that really exist now, rather than obeying fixed theories, ideas, or rules (thực dụng).
+  - *The importance of [aesthetics](u.md#aesthetic) is frequently forgotten, as long as approaches based in communication, usability and technique are considered more [pragmatic](c.md#pragmatic).*
 ##### privilege
 - n /prɪ' və lɪ.dʒ/
   - (C1) an advantage that only one person or group of people has, usually because of their position or because they are rich (đặc quyền)
@@ -148,9 +160,10 @@
 ### n /prəˈvɪʒ.ən/ (prờ víz zần-nờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpro/ukprove019.mp3)
 - (SUPPLY) the act of providing s/t (sự cung cấp).
   - *An MC is a Registered Participant with the [overall](b.md#overall) responsibility for coordination and [provision](c.md#provision) of metering services at a connection point in the NEM.*
-##### proximity
-- n /prɒk sɪ' mət ti`/
-  - (C2) the state of being near in space or time (gần).
+## proximity
+### n (U) /prɒkˈsɪm.ə.ti/ (prọk sí mơ tì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpro/ukprowe004.mp3)
+- (C2) the state of being near in space or time (gần).
+  - *There are at least three [proximity](c.md#proximity): space, time, and concept.*
 ##### remote
 - adj /rɪ` məʊ't/
   - (C2) [slight](b.md#slight) (xa vời)
