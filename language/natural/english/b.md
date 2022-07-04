@@ -38,7 +38,7 @@
 ## contemporary
 ### adj /kənˈtem.pər.ər.i/ (kờn thém pơ rì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcon/ukconta017.mp3)
 - existing or happening now, and therefore seeming modern ().
-  - *While [contemporary](b.md#) Web browsers do an increasingly good job of parsing even the worst HTML "tag soup", some errors are not always caught gracefully.*
+  - *While [contemporary](b.md#contemporary) Web browsers do an increasingly good job of parsing even the worst HTML "tag soup", some errors are not always caught gracefully.*
 ##### crisis
 - n /kra'ɪ sɪ.s/
   - (B2) a time of great disagreement, confusion, or suffering (khủng hoảng).
@@ -72,6 +72,10 @@ the form of rules, and punishments if there are broken, or the behaviour produce
 ##### elegantly
 - adj /e' ləg ɡə`nt li/
   - (B2) in a way that is graceful and attractive in appearance or behaviour (một cách thanh lịch/sang trọng/trang nhã).
+## encourage
+### v /ɪnˈkʌr.ɪdʒ/ (ìn kắr rịd-z) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uke/ukenc/ukencas019.mp3)
+- (B1) to make someone more likely to do something, or to make something more likely to happen (khuyến khích).
+  - *I [encourage](b.md#encourage) you to include references and citations for better formatting.*
 ## engineering
 ### n /ˌen.dʒɪˈnɪə.rɪŋ/ (èn dzì nía rìng) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uke/ukeng/ukengin001.mp3)
 - (B1) the work of an engineer (a person who designs or builds machines, engines, electrical systems, or large 

@@ -13,6 +13,10 @@
 ##### accumulative
 - adj /ə\` kju'ː mə\` lə` tɪ.v/
   - [cumulative](u.md#cumulative) ~ gradually increasing in number or amount (tích luỹ).
+## aesthetic
+## adj /esˈθet.ɪk/ (ẹt-s thé-tịk) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uka/ukaer/ukaerog009.mp3)
+- relating to the enjoyment or study of beauty (thẩm mỹ).
+  - *Balance, unity, and harmony are three primary properties that designers manipulate in order to create [aesthetic](u.md#aesthetic) experience*.
 ##### alias
 - prep /eɪ' li ə.s/
   - used when giving the name that a person is generally known by, after giving their real name (bí danh).
@@ -46,6 +50,10 @@
 - v /ba'ɪ pɑ.s/
   - to avoid s/t by going around it (vòng qua).
   - to ignore a rule or official authority (bỏ qua).
+## carousel
+### n /ˌkær.əˈsel/ (kà rờ séo-l) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcar/ukcarho025.mp3)
+- (AMUSEMENT) a large machine at a fair that turns around and has wooden or plastic animals or vehicles on which children ride (vòng quay).
+  - *.*
 ## collision
 ### n /kə' lɪ' ʒ.ə`n/
 - An accident that happens when two vehicles hit each other with force (va chạm).
@@ -218,6 +226,10 @@ they're synonymous*
 - the careful watching of a person or place, especially by the police or army, because of a crime that has happened or is expected (giám sát).
   - *Computer network [surveillance](u.md#surveillance)*
   - *The only way to protect our privacy is to [sustain](c.md#sustain) [dialogue](c.md#dialogue) with law enforcement like the Government aiming for [transparency](u.md#transparency) and [accountability](u.md#accountability) to social media [surveillance](u.md#surveillance) systems.*
+## symmetry
+### n /ˈsɪm.ə.tri/ (sím mơ trì) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksyb/uksybar026.mp3)
+- the quality of having parts that match each other, especially in a way that attractive, or similarity of shape or contents (đối xứng).
+  - *While there's a time and place for more abstract, asymmetrical designs, you can't go wrong with [symmetry](u.md#symmetry).*
 ## synthesis
 ### n /ˈsɪn.θə.sɪs/ (sín thơs sịs) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksyn/uksynta004.mp3)
 - (MIX) the mixing of different ideas, influences, or things to make a whole that is different, or new (tổng hợp).

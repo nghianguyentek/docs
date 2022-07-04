@@ -17,7 +17,8 @@ to ensure our documents are most compatibly.
   - [Heading elements](#heading-elements)
   - [Paragraph element](#paragraph-element)
   - [Listing elements](#listing-elements)
-  - [Text formatting](#Text-formatting-elements)
+  - [Contextual text formatting](#contextual-text-formatting)
+  - [Hyperlink](#hyperlink)
 ## A HTML document sample
 *You can copy the below codes into a file, for example, index.html, and open it in a browser to see the result.*
 ```html
@@ -25,7 +26,7 @@ to ensure our documents are most compatibly.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kihon.vn-Home</title>
 </head>
 <body>
@@ -66,7 +67,10 @@ There are few elements (i.e., all other elements must have) who don't need the c
 
 `<meta charset="UTF-8">`
 
-In general, pre-defined elements are enough for us to build our sites. However, in some specific (often advanced) cases, we need to create our own custom elements in the [JavaScript](/language/formative/programming/js) section.
+*Note:*
+
+- *Although tag names are not case-sensitive, we often use the lower-case.*
+- *In general, pre-defined elements are enough for us to build our sites. However, in some specific (often advanced) cases, we need to create our own custom elements in the [JavaScript](/language/formative/programming/js) section.*
 ## Element Attribute
 Element attributes can be used to give more information about the element content and categorised into types:
 - Built-in: attributes are defined in HTML specification and should be supported by browsers.
@@ -83,6 +87,10 @@ In the below attribute setting,
 We separate the name and value by the `=` sign. In the case of having more than one attribute, we add a space between two attributes. For example,
 
 `<meta name="viewport" content="width=device-width">`
+
+*Note*
+
+- *Same as tag name, attribute names should be in lower-case, though it isn't required.*
 ### Common global attributes
 
 | Name  | Description                                     |
@@ -175,12 +183,11 @@ For example,
 <h6>This is a <code>h6</code> heading</h6>
 ```
 ### Paragraph element
-- `p` for paragraph
-- `br` for line-break
+- `p`
 ```html
-<p>A paragraph is a distinct section of writing covering one topic.<br>
-  A paragraph will usually contain more than one sentence.<br> 
-  A typical paragraph will be 5-7 sentences, but this is by no means a rule.<br> 
+<p>A paragraph is a distinct section of writing covering one topic. 
+  A paragraph will usually contain more than one sentence. 
+  A typical paragraph will be 5-7 sentences, but this is by no means a rule. 
   The length is determined by the topic and the content.
 </p>
 ```
@@ -232,28 +239,17 @@ Of course, we can create nested lists as
   </li>
 </ol>
 ```
-### Text formatting elements
-Although HTML uses CSS for formatting and styling, it also provides some text formatting elements:
-- `b` (bold)
-- `i` (italic) for alternative things such as other language sentences, a technical terms, etc.
-- `u` (underlined) for misspelling words.
-- `sup` for superscripts.
-- `sub` for subscripts.
-- `s` (strikethrough) for no longer accurate or relevant things.
-- `mark` to mark or highlight for reference purposes.
+### Contextual text formatting
+Although we often use CSS for formatting and styling, HTML also supports some basic contextual text formatting elements:
 - `strong` for important, serious (e.g., warning or caution), or urgent things.
 - `small` for comments.
 - `em` to emphasis.
-```html
-This is a <b>bold</b>, <i>italic</i>, and <u>underlined</u> words.<br>
-ax<sup>2</sup> + bx + c = 0 and H<sub>2</sub>0.<br>
-Price <s>10$</s> <strong>1$</strong><br>
-Finding <mark>keywords</mark> is very important.<br>
-<em>PLEASE DO NOT EAT</em><br>
-<small>This price doesn't include VAT.</small>
-```
-#### Text semantic elements
-Some HTML text formatting elements are not actually good in presentation but may be helpful for accessibility because their semantics.
+- `mark` to mark or highlight for reference purposes.
+- `sup` for superscripts.
+- `sub` for subscripts.
+- `s` (strikethrough) for no longer accurate or relevant things.
+- `u` for misspelling words.
+- `i` for alternative things such as other language sentences, a technical terms, etc.
 - `q` for quotations.
 - `cite` for titles or citations.
 - `abbr` for abbreviations.
@@ -262,6 +258,14 @@ Some HTML text formatting elements are not actually good in presentation but may
 - `samp` for output samples.
 - `kbd` (keyboard data) for keyboard key input.
 - `time` for datetime data.
+### Hyperlink
+We can use hyperlinks, `a` tags, to navigate to other documents (in the same site - relative path or different site - absolute path) and to another section in the same document.
 ```html
-
+<a href="https://google.com">Google</a>
+<a href="https://google.com" target="_blank">Google</a><br>
 ```
+where
+- `href` attribute value contains the uri of the destination resource.
+- `target` attribute value indicates how the browser will open the destination resource:
+  - `_self`: default (not specified); open the destination resource in the same browser window/tab.
+  - `_blank`: open the destination resource in a new window/tab.
