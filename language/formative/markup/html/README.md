@@ -18,6 +18,7 @@ to ensure our documents are most compatibly.
   - [Paragraph element](#paragraph-element)
   - [Listing elements](#listing-elements)
   - [Contextual text formatting](#contextual-text-formatting)
+  - [Hyperlink](#hyperlink)
 ## A HTML document sample
 *You can copy the below codes into a file, for example, index.html, and open it in a browser to see the result.*
 ```html
@@ -25,7 +26,7 @@ to ensure our documents are most compatibly.
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kihon.vn-Home</title>
 </head>
 <body>
@@ -66,7 +67,10 @@ There are few elements (i.e., all other elements must have) who don't need the c
 
 `<meta charset="UTF-8">`
 
-In general, pre-defined elements are enough for us to build our sites. However, in some specific (often advanced) cases, we need to create our own custom elements in the [JavaScript](/language/formative/programming/js) section.
+*Note:*
+
+- *Although tag names are not case-sensitive, we often use the lower-case.*
+- *In general, pre-defined elements are enough for us to build our sites. However, in some specific (often advanced) cases, we need to create our own custom elements in the [JavaScript](/language/formative/programming/js) section.*
 ## Element Attribute
 Element attributes can be used to give more information about the element content and categorised into types:
 - Built-in: attributes are defined in HTML specification and should be supported by browsers.
@@ -83,6 +87,10 @@ In the below attribute setting,
 We separate the name and value by the `=` sign. In the case of having more than one attribute, we add a space between two attributes. For example,
 
 `<meta name="viewport" content="width=device-width">`
+
+*Note*
+
+- *Same as tag name, attribute names should be in lower-case, though it isn't required.*
 ### Common global attributes
 
 | Name  | Description                                     |
@@ -250,3 +258,14 @@ Although we often use CSS for formatting and styling, HTML also supports some ba
 - `samp` for output samples.
 - `kbd` (keyboard data) for keyboard key input.
 - `time` for datetime data.
+### Hyperlink
+We can use hyperlinks, `a` tags, to navigate to other documents (in the same site - relative path or different site - absolute path) and to another section in the same document.
+```html
+<a href="https://google.com">Google</a>
+<a href="https://google.com" target="_blank">Google</a><br>
+```
+where
+- `href` attribute value contains the uri of the destination resource.
+- `target` attribute value indicates how the browser will open the destination resource:
+  - `_self`: default (not specified); open the destination resource in the same browser window/tab.
+  - `_blank`: open the destination resource in a new window/tab.

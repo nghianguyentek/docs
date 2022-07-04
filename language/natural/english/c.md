@@ -137,6 +137,10 @@
 ### adj /ˈpær.ə.maʊnt/ (pá rơ mào-t) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpar/ukparag015.mp3)
 - (C2) more important thant anything else (tối quan trọng).
   - *Therefore, content is [paramount](c.md#paramount).*
+## perceive
+### v /pəˈsiːv/ (pờ sí-vờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpen/ukpente019.mp3)
+- (C1) (BELIEVE) to come to an opinion about something, or have a belief about something (coi là, cho là).
+  - *Those elements, which are visually connected, will be [perceived](c.md#perceive) as more related than those, which are not.*
 ## pragmatic
 ### adj /præɡˈmæt.ɪk/ (prặg má-tịk) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukp/ukpr_/ukpr___011.mp3)
 - (C2) solving problems in a sensible way that suits the conditions that really exist now, rather than obeying fixed theories, ideas, or rules (thực dụng).

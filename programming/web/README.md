@@ -12,12 +12,20 @@ Web programming is closely related to the Internet and Web (sites and pages). Wh
   - [Deployment](#deployment)
   - [Maintenance](#maintenance)
 ## History of web (WWW or World Wide Web)
-- Early 1990s: University of Minnesota developed Gopher, a document-sharing system, and it's used in the campus. At the same time, Tim Berners-Lee, a researcher of European Council for Nuclear Research (CERN), created the same thing.
+- Early 1990s, University of Minnesota developed Gopher, a document-sharing system, and it's used in the campus. At the same time, Tim Berners-Lee, a researcher of European Council for Nuclear Research (CERN), created the same thing.
 - 1993: Gopher became commercially and CERN published WorldWideWeb source codes.
 - Lately 1993, Mosaic browser appeared on Unix, Macintosh, and Windows.
 - December 1994, Marc Andreessen and Jim Clark founded Mosaic Communications (Netscape Communication Corporation) and released Netscape Navigator browser. At this time, Tim Berners-Lee founded the World Wide Web Consortium (W3C) at MIT (Massachusetts Institute of Technology), with support from CERN, DARPA, and the European Commission.
-- 1998, HTML4 was introduced.
+- 1995: HTML Working Group defined HTML 2.0
+- 1997: W3C Recommendation: HTML 3.2
+- 1998, HTML 4.01 was introduced.
+- 2000: W3C Recommendation XHTML 1.0
 - 2007, HTML Working Group started adopting Web Applications 1.0 specification, namely HTML5.
+- 2012, WHATWG HTML5 Live Standard
+- 2014, W3C Recommendation: HTML5
+- 2016, W3C Candidate Recommendation: HTML 5.1
+- 2017: W3C Recommendation: HTML 5.1 2nd Ed.
+- 2017: W3C Recommendation: HTML 5.2
 ## How the web works?
 Web works based on the client server model (architecture) with:
 - Network connection
