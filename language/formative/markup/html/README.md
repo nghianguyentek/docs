@@ -17,7 +17,7 @@ to ensure our documents are most compatibly.
   - [Heading elements](#heading-elements)
   - [Paragraph element](#paragraph-element)
   - [Listing elements](#listing-elements)
-  - [Contextual text formatting](#contextual-text-formatting)
+  - [Text formatting](#Text-formatting-elements)
 ## A HTML document sample
 *You can copy the below codes into a file, for example, index.html, and open it in a browser to see the result.*
 ```html
@@ -175,11 +175,12 @@ For example,
 <h6>This is a <code>h6</code> heading</h6>
 ```
 ### Paragraph element
-- `p`
+- `p` for paragraph
+- `br` for line-break
 ```html
-<p>A paragraph is a distinct section of writing covering one topic. 
-  A paragraph will usually contain more than one sentence. 
-  A typical paragraph will be 5-7 sentences, but this is by no means a rule. 
+<p>A paragraph is a distinct section of writing covering one topic.<br>
+  A paragraph will usually contain more than one sentence.<br> 
+  A typical paragraph will be 5-7 sentences, but this is by no means a rule.<br> 
   The length is determined by the topic and the content.
 </p>
 ```
@@ -231,17 +232,28 @@ Of course, we can create nested lists as
   </li>
 </ol>
 ```
-### Contextual text formatting
-Although we often use CSS for formatting and styling, HTML also supports some basic contextual text formatting elements:
-- `strong` for important, serious (e.g., warning or caution), or urgent things.
-- `small` for comments.
-- `em` to emphasis.
-- `mark` to mark or highlight for reference purposes.
+### Text formatting elements
+Although HTML uses CSS for formatting and styling, it also provides some text formatting elements:
+- `b` (bold)
+- `i` (italic) for alternative things such as other language sentences, a technical terms, etc.
+- `u` (underlined) for misspelling words.
 - `sup` for superscripts.
 - `sub` for subscripts.
 - `s` (strikethrough) for no longer accurate or relevant things.
-- `u` for misspelling words.
-- `i` for alternative things such as other language sentences, a technical terms, etc.
+- `mark` to mark or highlight for reference purposes.
+- `strong` for important, serious (e.g., warning or caution), or urgent things.
+- `small` for comments.
+- `em` to emphasis.
+```html
+This is a <b>bold</b>, <i>italic</i>, and <u>underlined</u> words.<br>
+ax<sup>2</sup> + bx + c = 0 and H<sub>2</sub>0.<br>
+Price <s>10$</s> <strong>1$</strong><br>
+Finding <mark>keywords</mark> is very important.<br>
+<em>PLEASE DO NOT EAT</em><br>
+<small>This price doesn't include VAT.</small>
+```
+#### Text semantic elements
+Some HTML text formatting elements are not actually good in presentation but may be helpful for accessibility because their semantics.
 - `q` for quotations.
 - `cite` for titles or citations.
 - `abbr` for abbreviations.
@@ -250,3 +262,6 @@ Although we often use CSS for formatting and styling, HTML also supports some ba
 - `samp` for output samples.
 - `kbd` (keyboard data) for keyboard key input.
 - `time` for datetime data.
+```html
+
+```
