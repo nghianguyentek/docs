@@ -14,11 +14,19 @@ to ensure our documents are most compatibly.
     - [Text content](#text-content)
     - [HTML content](#html-content)
 - [A simple document](#a-simple-document)
-  - [Heading elements](#heading-elements)
-  - [Paragraph element](#paragraph-element)
-  - [Listing elements](#listing-elements)
+  - [Headings](#headings)
+  - [Paragraph](#paragraph)
+  - [Lists](#lists)
   - [Contextual text formatting](#contextual-text-formatting)
   - [Hyperlink](#hyperlink)
+    - [Bookmark](#bookmark)
+  - [Image](#image)
+    - [Favicon](#favicon)
+  - [Table](#table)
+    - [Horizontal header](#horizontal-header)
+    - [Horizontal & vertical headers](#horizontal--vertical-headers)
+- Extensions
+  - [Meta tag](meta.md)
 ## A HTML document sample
 *You can copy the below codes into a file, for example, index.html, and open it in a browser to see the result.*
 ```html
@@ -27,6 +35,9 @@ to ensure our documents are most compatibly.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="kihon.vn home page">
+    <meta name="keywords" content="kihon, kihon.vn">
+    <meta name="author" content="kihon.vn">
     <title>kihon.vn-Home</title>
 </head>
 <body>
@@ -164,7 +175,7 @@ There is another case, when one element can't be a child of another element. For
 An HTML document like office document (e.g., Word or OpenOffice documents), has headings, paragraphs, lists, text formations, images, tables, and links.
 
 *Note that if I didn't mention to the closing tag, it means they required.* 
-### Heading elements
+### Headings
 There are six heading levels from most important (and bigger) to less important (and smaller) in the descending order:
 - `h1`: should appear one-per-document only.
 - `h2`
@@ -182,7 +193,7 @@ For example,
 <h5>This is a <code>h5</code> heading</h5>
 <h6>This is a <code>h6</code> heading</h6>
 ```
-### Paragraph element
+### Paragraph
 - `p`
 ```html
 <p>A paragraph is a distinct section of writing covering one topic. 
@@ -191,7 +202,7 @@ For example,
   The length is determined by the topic and the content.
 </p>
 ```
-### Listing elements
+### Lists
 There are three listing types:
 - Unordered list: `ul`
 - Ordered list: `ol`
@@ -259,7 +270,7 @@ Although we often use CSS for formatting and styling, HTML also supports some ba
 - `kbd` (keyboard data) for keyboard key input.
 - `time` for datetime data.
 ### Hyperlink
-We can use hyperlinks, `a` tags, to navigate to other documents (in the same site - relative path or different site - absolute path) and to another section in the same document.
+We can use hyperlinks, `a` tags, to navigate to other documents (in the same site - relative path or different site - absolute path) and to another section in the same document (i.e., bookmark).
 ```html
 <a href="https://google.com">Google</a>
 <a href="https://google.com" target="_blank">Google</a><br>
@@ -269,3 +280,77 @@ where
 - `target` attribute value indicates how the browser will open the destination resource:
   - `_self`: default (not specified); open the destination resource in the same browser window/tab.
   - `_blank`: open the destination resource in a new window/tab.
+#### Bookmark
+In an HTML document, we can create bookmarks by using the `id` attribute.
+
+*article1.htm*
+```html
+<h2 id="session2">Session 2</h2>
+```
+and create hyperlinks in the same or other documents to navigate to the upper section
+
+*article1.htm*
+```html
+<a href="#session2">Session 2</a>
+```
+*article2.htm*
+```html
+<a href="article1.htm#session2">Session 2 of the Article 1</a>
+```
+### Image
+To insert images into HTML documents, we use `img` tag.
+```html
+<img src="https://kihon.vn/img/thacbandoc.jpg" alt="Ban Doc waterfall">
+```
+where:
+- `src`: both absolute or relative URI of the image.
+- `alt`: the alternative text for screen reader and in the case, the client can't display the image.
+#### Favicon
+Favicon is the icon of your site/page, is right in the left of your page title on a browser tab. All modern browsers will automatically request favicon (`/favicon.ico` path) at the first time your site visited. 
+
+Online sites to create favicon:
+- [https://www.favicon.cc/](https://www.favicon.cc/)
+### Table
+#### Horizontal header
+```html
+<table>
+  <caption>CAPTION</caption>
+  <tr>
+    <th>Column1 name</th>
+    <th>Column2 Name</th>
+  </tr>
+  <tr>
+    <td>Column1 of Row1 value</td>
+    <td>Column2 of Row1 value</td>
+  </tr>
+  <tr>
+    <td>Column1 of Row2 value</td>
+    <td>Column2 of Row2 value</td>
+  </tr>
+</table>
+```
+where
+- `tr`: table row
+- `th`: column/row header
+- `td`: table cell
+#### Horizontal & Vertical headers
+```html
+<table>
+  <caption>CAPTION</caption>
+  <tr>
+    <th></th>
+    <th>Column1 name</th>
+    <th>Column2 Name</th>
+  </tr>
+  <tr>
+    <th>Row1 name</th>
+    <td>Column1 of Row1 value</td>
+    <td>Column2 of Row1 value</td>
+  </tr>
+  <tr>
+    <th>Row2 name</th>
+    <td>Column1 of Row2 value</td>
+    <td>Column2 of Row2 value</td>
+  </tr>
+</table>
+```

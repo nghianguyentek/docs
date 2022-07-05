@@ -1,4 +1,4 @@
-# meta element
+# meta tag
 ## Declare link preview content
 ### Facebook Messenger, Instagram, and Zalo (Open Graph Protocol)
 We should declare the `og` prefix in `html` tag
@@ -8,12 +8,13 @@ We should declare the `og` prefix in `html` tag
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Meta tag">
+    <meta property="og:title" content="Kihon.vn home page">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.japanesewordswriting.com/wp-content/uploads/2016/11/kihon-h.jpg">
-    <meta property="og:image:alt" content="Kihon-HTML-MetaTag">
-    <meta property="og:url" content="https://kihon.vn/html/meta_tag">
-    <title>Meta tag</title>
+    <meta property="og:image:alt" content="Kihon.vn">
+    <meta property="og:url" content="https://kihon.vn">
+    <meta property="og:description" content="Kihon.vn home page">
+    <title>Kihon.vn</title>
 </head>
 <body>
 </body>
