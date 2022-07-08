@@ -25,6 +25,7 @@ to ensure our documents are most compatibly.
   - [Table](#table)
     - [Horizontal header](#horizontal-header)
     - [Horizontal & vertical headers](#horizontal--vertical-headers)
+  - [Form](#form)
 - Extensions
   - [Meta tag](meta.md)
 ## A HTML document sample
@@ -264,11 +265,22 @@ Although we often use CSS for formatting and styling, HTML also supports some ba
 - `q` for quotations.
 - `cite` for titles or citations.
 - `abbr` for abbreviations.
+  - `title` attribute (required): full term or description
 - `pre` (preformatted) to keep the format as we typed.
 - `code` for a fragment of source code, is often used together with `pre`.
 - `samp` for output samples.
 - `kbd` (keyboard data) for keyboard key input.
 - `time` for datetime data.
+- `blockquote` for quoting more than one sentence.
+  - `cite` attribute (required): attribute indicates the source.
+- `bdo` (BiDirection Override)
+  - `dir` attribute (required): direction
+    - `ltr`: LeftToRight (default)
+    - `rtl`: RightToLeft
+### Semantic tags
+- `section`
+- `article`
+- `aside`
 ### Hyperlink
 We can use hyperlinks, `a` tags, to navigate to other documents (in the same site - relative path or different site - absolute path) and to another section in the same document (i.e., bookmark).
 ```html
@@ -310,6 +322,14 @@ Favicon is the icon of your site/page, is right in the left of your page title o
 
 Online sites to create favicon:
 - [https://www.favicon.cc/](https://www.favicon.cc/)
+#### Figure
+A semantic element to provide caption for an image.
+```html
+<figure>
+  <img src="https://kihon.vn/img/thacbandoc.jpg" alt="Ban Doc waterfall">
+  <figcaption>Ban Doc waterfall</figcaption>
+</figure>
+```
 ### Table
 #### Horizontal header
 ```html
@@ -354,3 +374,37 @@ where
   </tr>
 </table>
 ```
+### Form
+Form is used to collect user input for server-side processing later.
+```html
+<form method="post" action="/login">
+  <label for="username">Username</label>
+  <input id="username" name="username">
+  <label for="password">Password</label>
+  <input type="password" id="password" name="password">
+  <input type="submit" value="Submit">
+</form>
+```
+where
+- `method` attribute: can be `post` or `get` [HTTP method](/network/protocol/file/http.md#methods)
+- `action` attribute: the URI where the form data will be sent
+#### Input
+##### Common attributes
+- `type`:
+  - `text`: default (can be omitted)
+  - `password`
+  - `checkbox`: multiple choices
+  - `radio`: single choice in multiple options
+  - `select`: drop-down list
+  - `submit`: button is used to submit the form
+  - `number`: represents a numeric (default) or floating-point number based on the initialised value and step value
+  - `range`
+- `id`: for the corresponding `label`
+- `name`: field/field group name in the form
+- `value`: field value
+##### Validating attributes
+- `required`
+- `minlength` and `maxlength`: for `text`, `textarea` types
+- `min` and `max: for `number`, `range` types
+- `pattern`: a regular expression
+##### Types

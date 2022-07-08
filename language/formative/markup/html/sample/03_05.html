@@ -2,12 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sample 03-05: Semantic elements - Hyperlinks - Internal</title>
+    <style>
+      html {
+          scroll-behavior: smooth;
+      }
+    </style>
 </head>
 <body>
-<a id="top" href="#bottom">Jump to the bottom of this page</a>
-<div style="background-color: gray; width: 300px; height: 2000px"></div>
-<a id="bottom" href="#top">Jump to the top of this page</a>
+<div style="height: 20vh;">
+  <a id="top" href="#bottom">Jump to the bottom of this page</a>
+</div>
+<div style="background-image: linear-gradient(red, yellow); height: 200vh"></div>
+<div style="height: 20vh;">
+  <a id="bottom" href="#top">Jump to the top of this page</a>
+</div>
 </body>
 </html>
