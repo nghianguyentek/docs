@@ -6,12 +6,11 @@
 - [Tips](#tips)
 - [Validator](#validator)
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBoZjZN" data-user="kihon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/kihon/pen/qBoZjZN">
+<iframe height="300" style="width: 100%;" title="uopeople-cs2205-w4" src="https://codepen.io/kihon/embed/qBoZjZN?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kihon/pen/qBoZjZN">
   uopeople-cs2205-w4</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
 
 ## Tips
 ### Smooth scrolling
