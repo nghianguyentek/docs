@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1">
+  <title>Animation 01</title>
+</head>
+<body>
+
+<iframe height="400" style="width: 100%; border: none;" title="uopeople_cs2205_w4_dcs4r_inheritance" src="https://codepen.io/kihon/embed/qBoZjZN?default-tab=html%2Cresult" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kihon/pen/qBoZjZN">
+  uopeople_cs2205_w4_dcs4r_inheritance</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<iframe height="400" style="width: 100%; border: none;" title="uopeople_cs2205_w4_dcs4r_specific" src="https://codepen.io/kihon/embed/XWEKZmE?default-tab=html%2Cresult" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kihon/pen/XWEKZmE">
+  uopeople_cs2205_w4_dcs4r_specific</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<iframe height="400" style="width: 100%; border: none;" title="uopeople_cs2205_w4_dcs4r_latest_win" src="https://codepen.io/kihon/embed/BarzYmL?default-tab=html%2Cresult" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kihon/pen/BarzYmL">
+  uopeople_cs2205_w4_dcs4r_latest_win</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<iframe height="400" style="width: 100%; border: none;" title="uopeople_cs2205_w4_dcs4r_important" src="https://codepen.io/kihon/embed/dymXdWE?default-tab=html%2Cresult" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kihon/pen/dymXdWE">
+  uopeople_cs2205_w4_dcs4r_important</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<iframe height="400" style="width: 100%; border: none;" title="uopeople_cs2205_w4_dcs4r_animation" src="https://codepen.io/kihon/embed/oNqLmVv?default-tab=html%2Cresult" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/kihon/pen/oNqLmVv">
+  uopeople_cs2205_w4_dcs4r_animation</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNqLmVv" data-user="kihon" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/kihon/pen/oNqLmVv">
+  uopeople_cs2205_w4_dcs4r_animation</a> by kihon (<a href="https://codepen.io/kihon">@kihon</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<canvas width="800" height="600"></canvas>
+<script>
+    let ctx, x=y=1, sx=sy=5, mx, my, w=h=50;
+    window.onload = function () {
+        ctx = document.querySelector("canvas").getContext("2d");
+        mx = ctx.canvas.width;
+        my = ctx.canvas.height;
+
+        ctx.fillStyle = '#FFFF';
+        requestAnimationFrame(draw);
+    }
+
+    function draw() {
+        ctx.fillRect(0, 0, mx, my);
+        ctx.save();
+
+        ctx.fillStyle = '#000';
+        ctx.fillRect(x, y, w, h);
+
+        ctx.restore();
+
+        if (x+sx+w >= mx || y+sy+h >= my || x <= 0 || y <= 0) {
+            sx = -sx;
+            sy = -sy;
+        }
+
+        x += sx;
+        y += sy;
+
+        requestAnimationFrame(draw);
+    }
+</script>
+</body>
+</html>

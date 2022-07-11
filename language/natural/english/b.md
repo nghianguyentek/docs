@@ -189,6 +189,10 @@ and applies tools of the trade to obtain a problem solution.*
 - adj /sə'ʊ kɔːld/
   - (B2) used to show that you think a word that is used to describe s/o or s/t is not suitable or not correct (được gọi là).
   - (B2) used to introduce a new work or phrase that is not yet known by many people (được gọi là).
+## style
+### n /staɪl/ (stai-l) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uks/uksti/ukstick017.mp3)
+- (B1) (DESIGN) a particular shape or design, especially person's hair, clothes, or a piece of furniture (thiết kế, mẫu, kiểu).
+  - *Cascading Style Sheets is a mechanism for adding [style](#style) to Web documents* 
 ##### tear
 - v /te ər/ (ps. [tore](u.md#tore); pp. [torn](c.md); idioms [tear](i.md#tear))
   - (B1) pull apart (xé/kéo rách).

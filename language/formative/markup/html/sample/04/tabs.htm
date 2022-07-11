@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <tilte>Sample 04-01</tilte>
+    <style>
+        div.items p {display: none}
+        div.items p:target {display: block}
+    </style>
+</head>
+<body>
+<p>
+    <a href="#item1">item 1</a>
+    <a href="#item2">item 2</a>
+    <a href="#item3">item 3</a>
+    <a href="#default">clear</a>
+</p>
+
+<div class="items">
+    <p id="item1">... item 1...</p>
+    <p id="item2">... item 2...</p>
+    <p id="item3">...</p>
+    <p id="default"><!-- by default, show no text --></p>
+</div>
+</body>
+</html>

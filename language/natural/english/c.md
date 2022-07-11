@@ -18,6 +18,11 @@
 ##### confine
 - v /kə`n fa'ɪ n/
   - (C2) to limit an activity, person, or problem in some way (giới hạn). 
+## contrast
+### n /ˈkɒn.trɑːst/ (kón trợs-t) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcon/ukcontr005.mp3)
+- (B2) an obvious difference between two or more things (sự tương phản)
+  - *So without the shadows, there is barely any [contrast](#contrast).*
+### v /kənˈtrɑːst/ (kờn trớs-t) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcon/ukcontr006.mp3)
 ## convey
 ### v /kənˈveɪ/ (kờn vấy) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcon/ukconve003.mp3)
 - (C1) (COMMUNICATE) to express a though, feeling, or idea so that it is understood by other people (diễn đạt, truyền đạt).

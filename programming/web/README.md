@@ -33,7 +33,7 @@ Web works based on the client server model (architecture) with:
 - [HTTP (HyperText Transfer Protocol)](/network/protocol/file/http.md)
 - Public assets:
   - [HTML (HyperText Markup Language)](/language/formative/markup/html/README.md) documents
-  - [CSS (Cascading StyleSheets)](/language/formative/stylesheet/css.md) files
+  - [CSS (Cascading StyleSheets)](/language/formative/stylesheet/css/README.md) files
   - [js (JavaScript)](/language/formative/programming/js/README.md) files
   - Images, audios, videos, etc.
 ```mermaid
