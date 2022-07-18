@@ -202,6 +202,10 @@
 ##### unscrupulous
 - adj /ʌn skru'ːp pjə lə.s/
   - (C2) behaving in a way that is dishonest or unfair in order to get what you want (vô dạo đức).
+## versatile
+### adj /ˈvɜː.sə.taɪl/ [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukv/ukver/ukverit015.mp3)
+- (C2) able to change easily from one activity to another or able to used for many different purposes (đa năng, linh hoạt).
+  - *JavaScript is versatile and beginner-friendly.*
 ##### vulnerable
 - adj /vʌ'l nə rə bə`l/
   - (C2) able to be easily physically or mentally hurt, influenced, or attacked (dễ bị tổn thương/ảnh hưởng/tấn công).

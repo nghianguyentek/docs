@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample 01</title>
+</head>
+<body>
+<section id="output"></section>
+<script>
+const output = document.querySelector('#output');
+function log(number) {
+    output.textContent = number.toString();
+}
+
+const input = '111';
+log(`${Number.parseInt(input, 10)};
+${Number.parseInt(input, 2)};
+${Number.parseInt(input, 8)};
+${Number.parseInt(input, 16)}`);
+</script>
+</body>
+</html>

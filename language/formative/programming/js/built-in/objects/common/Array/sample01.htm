@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample 01</title>
+</head>
+<body>
+<section id="output"></section>
+<script>
+const output = document.querySelector('#output');
+function log(message) {
+    output.textContent = message;
+}
+
+const array = ['a', 'b', 'c', 'd'];
+const newArray = array.map(item => item + 'x');
+log(`array=[${array}]; newArray=[${newArray}]`);
+</script>
+</body>
+</html>
