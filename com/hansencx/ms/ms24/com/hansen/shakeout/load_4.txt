@@ -1,0 +1,67 @@
+private List<MSInstall> getMSInstallations(String serverName) {
+
+		// use an ssh library to run
+		// ssh $corebackend_hostname /opt/peace/bin/pd_shell $deployment_name env
+		// this gives key=value lines
+		// parse that
+		// check on command line what it give,
+		// if anything you need itns't there, add it to pd_shell WITH A COMMMENT
+
+		// remove the smart sto choose which environment
+		// manadatory host.deploymentmame paramater on command line
+
+		logger.debug("getMSInstallations: start");
+		List<MSInstall> installations = new ArrayList<>();
+		//		String installationDetailsString = URLRequest.getURL("http://help.nz.hsntech.int/?msinstalls&server=" + serverName); //Get ms install lines for server
+		String installationDetailsString = URLRequest.getURL("http://" + serverName + "/secure/?robot", "system", "narcolepsy"); //Get ms install lines for server
+		try {
+			Document document = XmlUtil.parse(installationDetailsString);
+			List<Node> deploymentNodes = XmlUtil.selectPath("/robot/deployments/deployment", document);
+			for (Node deploymentNode : deploymentNodes) {
+				//XmlUtil.selectPathsFirstValue("@name", deploymentNode);
+				String deploymentName = XmlUtil.selectPathsFirstValue("./pair[@key='deployment_name']/@value", deploymentNode);
+
+//				if (deploymentName == null || deploymentName.matches(Constants.REQUIRED_DEPLOYMENTS_REGEX) == false) {
+//					continue;
+//				}
+				if ("900_rel_EE_core".equals(deploymentName) ||"900_shk_EE_core".equals(deploymentName)  ) {
+					MSInstall msInstall = new MSInstall(deploymentNode);
+					installations.add(msInstall);
+				}
+			}
+
+
+		} catch (Exception e) {
+			return Arrays.asList(new MSInstall[] { MSInstall.getNullInstance() });
+		}
+		//		logger.debug("Server Installations \n" + installationDetailsString);
+		//		if (installationDetailsString.contains("<" + serverName + ">")) {
+		//			installationDetailsString = installationDetailsString.substring(installationDetailsString.indexOf("<" + serverName + ">"),installationDetailsString.indexOf("</" + serverName + ">"));
+		//			installationDetailsString = installationDetailsString.replaceAll("<[/]?" + serverName + ">","");
+		//			if (installationDetailsString.contains("<installations>"))	{
+		//				installationDetailsString = installationDetailsString.replaceAll("<[/]?installations>","");
+		//				for (String installationDetails : installationDetailsString.split("\n")) {
+		//					if(installationDetails.split("\\|").length <= 0){
+		//						continue;
+		//					}
+		//					String deployment = installationDetails.split("\\|")[0];
+		//					if (deployment.matches(Constants.REQUIRED_DEPLOYMENTS_REGEX) == false) {
+		//						continue;
+		//					}
+		//					if (StringUtil.isEmpty(installationDetails)) {
+		//						continue;
+		//					}
+		//					MSInstall msInstall = new MSInstall(serverName + "|" + installationDetails);
+		//					installations.add(msInstall);
+		//				}
+		//			}
+		//		}
+		if (installations.size() == 0) {
+			if (!firstRun)	{
+				JOptionPane.showMessageDialog(null , "Verify /mktsoln/in directory exists in directory defined by deployment property INTERFACES_ROOT,\n to enable msinstall script to correctly run", "information", JOptionPane.INFORMATION_MESSAGE);
+			}
+			installations.add(MSInstall.getNullInstance());
+		}
+		firstRun = false;
+		return installations;
+	}

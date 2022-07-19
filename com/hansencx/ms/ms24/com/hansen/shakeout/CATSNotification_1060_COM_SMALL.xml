@@ -1,0 +1,27 @@
+<xml-fragment>
+    <TransactionData>
+        <Initiator>AGLQLD1</Initiator>
+        <Recipient>ESSENTIAL</Recipient>
+        <OriginalTransactionID>4446</OriginalTransactionID>
+        <TransactionDate>2021-12-28T06:47:26</TransactionDate>
+        <ExternalTransactionID>gen-1640677646214</ExternalTransactionID>
+        <TransactionType>CATSNotification</TransactionType>
+        <Direction>I</Direction>
+        <Role>LNSP</Role>
+        <RoleStatus>C</RoleStatus>
+        <RequestId>20211228184718</RequestId>
+        <MarketTransactionStatus>COM</MarketTransactionStatus>
+        <ChangeReasonCode>1060</ChangeReasonCode>
+        <ScheduledDate>2022-01-11</ScheduledDate>
+        <ActualChangeDate>2022-01-10</ActualChangeDate>
+        <InitiatingRequestID>4446</InitiatingRequestID>
+        <UniqueServiceIdentifier>42040050724</UniqueServiceIdentifier>
+        <Participant>AGLQLD1</Participant>
+        <RegulatoryAreaCode>NSW</RegulatoryAreaCode>
+        <SupplyPointClass>SMALL</SupplyPointClass>
+        <ReceiptDate>2021-12-28T20:49:29.967+13:00</ReceiptDate>
+        <TransactionID>22547343</TransactionID>
+        <MasterId>22547341</MasterId>
+    </TransactionData>
+    <Services/>
+</xml-fragment>

@@ -1,0 +1,30 @@
+<xml-fragment>
+    <TransactionData>
+        <TransactionType>SiteAccessRequest</TransactionType>
+        <TransactionDate>2022-07-06T08:01:53.852+12:00[Pacific/Auckland]</TransactionDate>
+        <TransactionID>22552259</TransactionID>
+        <Direction>O</Direction>
+        <Initiator>CNRGYP</Initiator>
+        <Recipient>AES</Recipient>
+        <Participant>CNRGYP</Participant>
+        <Role>LNSP</Role>
+        <RoleStatus>C</RoleStatus>
+        <UniqueServiceIdentifier>42040058130</UniqueServiceIdentifier>
+        <TransactionStatus>PP</TransactionStatus>
+        <ExternalTransactionID>CNRGYP-TNS-22552259</ExternalTransactionID>
+    </TransactionData>
+    <RequestReasons>
+        <RequestReason>
+            <RequestReasonCode>New Retailer for site</RequestReasonCode>
+        </RequestReason>
+    </RequestReasons>
+    <Notes>
+        <Note>
+            <Lines>
+                <Line>
+                    <LineText>42040058130</LineText>
+                </Line>
+            </Lines>
+        </Note>
+    </Notes>
+</xml-fragment>

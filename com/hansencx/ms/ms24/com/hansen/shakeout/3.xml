@@ -1,0 +1,53 @@
+<xml-fragment>
+    <TransactionData>
+        <ExternalTransactionID>gen-1640684054322</ExternalTransactionID>
+        <OriginalTransactionID>init-1640684054322</OriginalTransactionID>
+        <TransactionDate>2021-12-28T08:34:14</TransactionDate>
+        <TransactionType>CustomerDetailsNotification</TransactionType>
+        <TransactionStatus>PA</TransactionStatus>
+        <UniqueServiceIdentifier>42040050948</UniqueServiceIdentifier>
+        <Recipient>ESSENTIAL</Recipient>
+        <RecipientDescrip/>
+        <Initiator>AES</Initiator>
+        <Priority>Medium</Priority>
+        <Direction>I</Direction>
+        <ActualModifiedDateTime>2012-01-12T19:00:27.373</ActualModifiedDateTime>
+        <ReceiptDate>2021-12-28T22:39:47.352+13:00</ReceiptDate>
+        <ScheduledDate>2021-12-28</ScheduledDate>
+        <AcknowledgeSLATime>2021-12-29T23:59:00.000+13:00</AcknowledgeSLATime>
+        <TransactionID>22547365</TransactionID>
+    </TransactionData>
+    <RequestReasons>
+        <RequestReason>
+            <RequestReasonCode>Update</RequestReasonCode>
+            <RequestReasonDescription>Update</RequestReasonDescription>
+        </RequestReason>
+    </RequestReasons>
+    <Premise>
+        <SensitiveLoad>Y</SensitiveLoad>
+        <SensitiveLoadType>Life Support</SensitiveLoadType>
+    </Premise>
+    <Customers>
+        <Customer>
+            <ConsumerTitle>MRS</ConsumerTitle>
+            <ConsumerSurname>DOE</ConsumerSurname>
+            <ConsumerFirstNames>ANH MS 191</ConsumerFirstNames>
+            <ConsumerType>DO</ConsumerType>
+            <HomePhoneNumber>0290153801</HomePhoneNumber>
+            <CellPhoneNumber>0490153801</CellPhoneNumber>
+            <EmailAddress>bongo@yahoo.com</EmailAddress>
+        </Customer>
+    </Customers>
+    <PostalAddresses>
+        <PostalAddress>
+            <PurposeTypeCode>B</PurposeTypeCode>
+            <AddressLine1>24 WINIFRED STREET</AddressLine1>
+            <AddressLine2>KINGSTON QLD</AddressLine2>
+            <AddressLine3>KINGSTON QLD</AddressLine3>
+            <PostalCode>4114</PostalCode>
+        </PostalAddress>
+    </PostalAddresses>
+    <Event>
+        <Status>Accept</Status>
+    </Event>
+</xml-fragment>

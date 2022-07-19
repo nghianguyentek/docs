@@ -1,0 +1,31 @@
+<xml-fragment>
+    <TransactionData>
+        <ExternalTransactionID>gen-1640683544682</ExternalTransactionID>
+        <TransactionDate>2021-12-28T08:25:44</TransactionDate>
+        <TransactionType>SiteAccessNotification</TransactionType>
+        <TransactionStatus>CA</TransactionStatus>
+        <UniqueServiceIdentifier>42040050948</UniqueServiceIdentifier>
+        <Recipient>ESSENTIAL</Recipient>
+        <RecipientDescrip/>
+        <Initiator>AES</Initiator>
+        <Priority>Medium</Priority>
+        <Direction>I</Direction>
+        <ActualModifiedDateTime>2009-10-12T01:02:35+10:00</ActualModifiedDateTime>
+        <ReceiptDate>2021-12-28T22:39:47.722+13:00</ReceiptDate>
+        <ScheduledDate>2021-12-28</ScheduledDate>
+        <AcknowledgeSLATime>2021-12-29T23:59:00.000+13:00</AcknowledgeSLATime>
+        <TransactionID>22547367</TransactionID>
+    </TransactionData>
+    <ServiceOrder>
+        <ServiceOrderType>Notification</ServiceOrderType>
+    </ServiceOrder>
+    <Premise>
+        <Hazards>
+            <Hazard>Difficult Customer</Hazard>
+        </Hazards>
+        <AccessInstructions>Customer reports no access requirements</AccessInstructions>
+    </Premise>
+    <Event>
+        <Status>Accept</Status>
+    </Event>
+</xml-fragment>

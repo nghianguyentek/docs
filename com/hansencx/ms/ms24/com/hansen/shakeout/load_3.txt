@@ -1,0 +1,55 @@
+public static List<MSInstall> getMSInstallations(String serverName) {
+		String username = "";
+		String password = "";
+		try {
+			username = CredentialLoader.getCredential("ms_generator")[0];
+			password = CredentialLoader.getCredential("ms_generator")[1];
+		}catch(Exception e) {
+			e.printStackTrace();
+			logger.error("Please create fglprofile for 'ms_generator'");
+		}
+		List<MSInstall> installations = new ArrayList<>();
+		String serverFQN = serverName;
+		if (serverName.equals("eerel-4gl01") || serverName.equals("eerel-web01")||(serverName.startsWith("d") && !serverName.endsWith(".hsntech.int"))) {
+			serverFQN = serverName + ".hsntech.int";
+		}
+		if (! serverFQN.endsWith(".hsntech.int")){
+			System.out.println (serverFQN + " is a short name ");
+		}else {
+			System.out.println (serverFQN + " is a long name ");
+		}
+
+		//serverFQN = serverFQN.endsWith(".hsntech.int") ? serverName : serverName + ".nz.hsntech.int";
+		//		String installationDetailsString = URLRequest.getURL("http://help.nz.hsntech.int/?msinstalls&server=" + serverName); //Get ms install lines for server
+		String installationDetailsString = URLRequest.getURL("http://" + serverFQN + "/secure/?robot", "system", "narcolepsy"); //Get ms install lines for server
+		try {
+			Document document = XmlUtil.parse(installationDetailsString);
+			List<Node> deploymentNodes = XmlUtil.selectPath("/robot/deployments/deployment", document);
+			for (Node deploymentNode : deploymentNodes) {
+				//XmlUtil.selectPathsFirstValue("@name", deploymentNode);
+				String deploymentName = XmlUtil.selectPathsFirstValue("./pair[@key='deployment_name']/@value", deploymentNode);
+
+				if (deploymentName == null || deploymentName.matches(Constants.REQUIRED_DEPLOYMENTS_REGEX) == false) {
+					continue;
+				}
+				if ("900_rel_EE_core".equals(deploymentName)
+						|| "900_shk_EE_core".equals(deploymentName)
+						|| "P900_101_d67".equals(deploymentName)) {
+					MSInstall msInstall = new MSInstall(deploymentNode);
+					installations.add(msInstall);
+				}
+			}
+
+
+		} catch (Exception e) {
+			return Arrays.asList(new MSInstall[] { MSInstall.getNullInstance() });
+		}
+		if (installations.size() == 0) {
+			//			if (!firstRun)	{
+			//				JOptionPane.showMessageDialog(null , "Verify /mktsoln/in directory exists in directory defined by deployment property INTERFACES_ROOT,\n to enable msinstall script to correctly run", "information", JOptionPane.INFORMATION_MESSAGE);
+			//			}
+			installations.add(MSInstall.getNullInstance());
+		}
+		//		firstRun = false;
+		return installations;
+	}

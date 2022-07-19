@@ -1,0 +1,26 @@
+<xml-fragment>
+    <TransactionData>
+        <Initiator>ACT</Initiator>
+        <Recipient>CNRGYP</Recipient>
+        <OriginalTransactionID>22070410152800</OriginalTransactionID>
+        <TransactionDate>2022-07-03T22:15:41</TransactionDate>
+        <ExternalTransactionID>gen-1656886541350</ExternalTransactionID>
+        <TransactionType>CATSNotification</TransactionType>
+        <Direction>I</Direction>
+        <Role>LNSP</Role>
+        <RoleStatus>C</RoleStatus>
+        <RequestId>22070410154101</RequestId>
+        <MarketTransactionStatus>COM</MarketTransactionStatus>
+        <ChangeReasonCode>1060</ChangeReasonCode>
+        <ScheduledDate>2012-02-02</ScheduledDate>
+        <ActualChangeDate>2012-02-02</ActualChangeDate>
+        <InitiatingRequestID/>
+        <UniqueServiceIdentifier>42040056324</UniqueServiceIdentifier>
+        <Participant>ACT</Participant>
+        <RegulatoryAreaCode>NSW</RegulatoryAreaCode>
+        <SupplyPointClass>SMALL</SupplyPointClass>
+        <ReceiptDate>2022-07-04T10:15:45.585+12:00</ReceiptDate>
+        <TransactionID>22551097</TransactionID>
+    </TransactionData>
+    <Services/>
+</xml-fragment>

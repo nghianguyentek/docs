@@ -1,0 +1,25 @@
+<input>
+    <Transactions>
+        <listitem>
+            <Premise>
+                <Hazards>
+                    <listitem>
+                        <Hazard>Difficult Customer</Hazard>
+                    </listitem>
+                </Hazards>
+                <AccessInstructions>Customer reports no access requirements</AccessInstructions>
+            </Premise>
+            <TransactionData>
+                <ActualModifiedDateTime>2012-02-01T00:00+13:00[Pacific/Auckland]</ActualModifiedDateTime>
+                <UniqueServiceIdentifier>42040055419</UniqueServiceIdentifier>
+                <OriginalTransactionID>CNRGYP-TNS-22550953</OriginalTransactionID>
+                <ExternalTransactionID>gen-118902673731368</ExternalTransactionID>
+                <Recipient>CNRGYP</Recipient>
+                <TransactionDate>2022-07-01T01:00:47.378</TransactionDate>
+            </TransactionData>
+        </listitem>
+    </Transactions>
+    <MessageDate>2022-07-01T01:00:47.378</MessageDate>
+    <ExternalMessageID>gen-118902673717802</ExternalMessageID>
+    <Initiator>AES</Initiator>
+</input>

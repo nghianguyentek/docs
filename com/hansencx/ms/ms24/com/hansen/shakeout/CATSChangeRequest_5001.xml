@@ -1,0 +1,71 @@
+<xml-fragment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <TransactionData>
+        <TransactionDate>2021-12-28T14:52:51.808+11:00</TransactionDate><!---->
+        <TransactionID>22547319</TransactionID><!---->
+        <Recipient>NEMMCO</Recipient><!---->
+        <Direction>O</Direction><!---->
+        <Initiator>CNRGYP</Initiator><!---->
+        <ChangeReasonCode>5001</ChangeReasonCode><!---->
+        <SupplyPointClass>SMALL</SupplyPointClass>
+        <RegulatoryAreaCode>NSW</RegulatoryAreaCode>
+        <Role>LNSP</Role><!---->
+        <Participant>CNRGYP</Participant><!---->
+        <RoleStatus>N</RoleStatus><!---->
+        <DistributionLossFactorCode>FLCL</DistributionLossFactorCode><!---->
+        <TransmissionNodeIdentifier>NTU2</TransmissionNodeIdentifier><!---->
+        <UniqueServicePointStatus>A</UniqueServicePointStatus><!---->
+        <ActualEndDate>2007-12-31+11:00</ActualEndDate><!---->
+        <ScheduledDate>2007-12-25+11:00</ScheduledDate><!---->
+        <TransactionType>CATSChangeRequest</TransactionType><!---->
+        <UniqueServiceIdentifier>42040049724</UniqueServiceIdentifier><!---->
+        <TransactionStatus>PP</TransactionStatus><!---->
+        <Priority>Medium</Priority><!---->
+        <ExternalTransactionID>CNRGYP-TNS-22547319</ExternalTransactionID><!---->
+    </TransactionData>
+    <MarketParticipants>
+        <MarketParticipant>
+            <ParticipantCode>AES</ParticipantCode>
+            <ParticipantRole>FRMP</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>CNRGYP</ParticipantCode>
+            <ParticipantRole>RP</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>CNRGYMDP</ParticipantCode>
+            <ParticipantRole>MPC</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>CNRGY</ParticipantCode>
+            <ParticipantRole>LR</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>CNRGYMDP</ParticipantCode>
+            <ParticipantRole>MDP</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>ESSENTIAL</ParticipantCode>
+            <ParticipantRole>LNSP</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>AE</ParticipantCode>
+            <ParticipantRole>ROLR</ParticipantRole>
+        </MarketParticipant>
+        <MarketParticipant>
+            <ParticipantCode>CNRGYMPB</ParticipantCode>
+            <ParticipantRole>MPB</ParticipantRole>
+        </MarketParticipant>
+    </MarketParticipants>
+    <Premise>
+        <PremiseNumber>1091778</PremiseNumber>
+        <TownName>BONNY HILLS</TownName>
+        <StateCode>NSW</StateCode>
+        <PostalCode>1234</PostalCode>
+        <PremiseTitle xsi:nil="true"/>
+        <StreetType>LOOP</StreetType>
+        <StreetName>LITTLE LAUREN CREEK</StreetName>
+        <FlatType>APT</FlatType>
+        <LocationDescriptor xsi:nil="true"/>
+        <LotNumber xsi:nil="true"/>
+    </Premise>
+</xml-fragment>

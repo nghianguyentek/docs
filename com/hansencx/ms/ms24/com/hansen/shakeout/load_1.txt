@@ -1,0 +1,70 @@
+public static Transaction loadChangeResponse2 (GeneratorDTO generatorDTO, Transaction changeRequest) {
+        logger.debug("loadChangeResponse start");
+
+        generatorDTO.setTransactionType(TransactionType.CATSChangeResponse.name());
+        CATSTransactionImpl impl = new CATSTransactionImpl();
+        impl.setDto(generatorDTO);
+
+        logger.debug("changeREqeuest transactioniD " + changeRequest.getTransactionData().getTransactionID());
+        logger.debug("changeREqeuest externaltransactioniD " + changeRequest.getTransactionData().getExternalTransactionID());
+        generatorDTO.setOriginalTransactionId(changeRequest.getTransactionData().getExternalTransactionID());
+        generatorDTO.setRequestId(GeneratorUtil.generateRequestID());
+        generatorDTO.getCATSHelperDTO().setFromParticipant("NEMMCO");
+        // generatorDTO.getCATSHelperDTO().setToParticipant(generatorDTO.getFrmp());
+        // generatorDTO.getCATSHelperDTO().setToParticipant(generatorDTO.getChangeFrmp());
+        generatorDTO.getCATSHelperDTO().setMarketStatusCode(Constants.MarketStatusCode.Accept.name());
+        try {
+            impl.generate();
+            impl.setTransaction(impl.getTransaction());
+            impl.process();
+            logger.debug("Transaction: \n" + impl.getTransaction());
+        } catch (Exception e) {
+            throw new AutomatedShakeoutException(e);
+        }
+
+        Document document;
+        String externalID;
+
+        try {
+            document = XmlUtil.parse(impl.getTransaction());
+            externalID = XmlUtil.selectPathsFirstValue("//Transactions/Transaction[1]/@transactionID", document);
+        } catch (Exception e) {
+            throw new AutomatedShakeoutException(e);
+        }
+
+        logger.debug("External ID: " + externalID);
+
+        // expectation: no Change Response yet for
+        List<Transaction> transactions = null;
+        transactions = shakeoutDAO.getTransactions(externalID, TransactionType.CATSChangeResponse);
+        if (transactions.size() != 0) {
+            throw new AssertionException(
+                "Transaction exists: external ID [" + externalID + "]; Transaction Type [" +
+                    TransactionType.CATSChangeResponse.name() + "]");
+        }
+        logger.info("...running MS to process the change response");
+        MarketSolutionService.runMarketSolution();
+
+        logger.info("Asserting that the Change Response has been processed to a Completed status in MS");
+        // expectation: Change Response processed in MS and is at Completed
+        // status
+
+        transactions = shakeoutDAO.getTransactions(externalID, TransactionType.CATSChangeResponse, Status.C);
+        if (transactions.size() != 1) {
+            throw new AssertionException("Transaction at status [" + Status.C.getCode() + "] does not exist: external ID [" + externalID + "]; Transaction Type [" + TransactionType.CATSChangeResponse.name() + "]");
+        }
+        logger.info("Assertion passed");
+
+        logger.info("Asserting that the Change Response is linked as a child transaction to the master Change Request");
+        Transaction changeResponseTransaction = transactions.get(0);
+        // expectation: Change Response (child) should be linked to the Change
+        // Request (master)
+        if (changeResponseTransaction.getTransactionData().getMasterId() != changeRequest.getTransactionData().getTransactionID()) {
+            throw new AssertionException("Master of Change Response transaction not correct");
+        }
+        logger.info("Assertion passed");
+
+        logger.debug("loadChangeResponse END");
+
+        return changeResponseTransaction;
+    }

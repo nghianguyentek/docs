@@ -1,0 +1,30 @@
+<xml-fragment>
+    <TransactionData>
+        <ExternalTransactionID>gen-11559790997090</ExternalTransactionID>
+        <OriginalTransactionID>CNRGYP-TNS-22551174</OriginalTransactionID>
+        <TransactionDate>2022-07-04T12:30:27.475</TransactionDate>
+        <TransactionType>SiteAccessNotification</TransactionType>
+        <TransactionStatus>RE</TransactionStatus>
+        <UniqueServiceIdentifier>42040056845</UniqueServiceIdentifier>
+        <Recipient>ESSENTIAL</Recipient>
+        <RecipientDescrip/>
+        <Initiator>AES</Initiator>
+        <Priority>Medium</Priority>
+        <Direction>I</Direction>
+        <ActualModifiedDateTime>2012-02-01T00:00+13:00[Pacific/Auckland]</ActualModifiedDateTime>
+        <ReceiptDate>2022-07-04T12:30:29.029+12:00</ReceiptDate>
+        <ScheduledDate>2022-07-04</ScheduledDate>
+        <AcknowledgeSLATime>2022-07-06T23:59:00.000+12:00</AcknowledgeSLATime>
+        <MasterId>22551174</MasterId>
+        <TransactionID>22551176</TransactionID>
+    </TransactionData>
+    <ServiceOrder>
+        <ServiceOrderType>Notification</ServiceOrderType>
+    </ServiceOrder>
+    <Premise>
+        <Hazards>
+            <Hazard>Difficult Customer</Hazard>
+        </Hazards>
+        <AccessInstructions>Customer reports no access requirements</AccessInstructions>
+    </Premise>
+</xml-fragment>

@@ -1,0 +1,50 @@
+<style>
+code {
+  color: goldenrod;
+}
+
+code.attr {
+  color: #060;
+}
+
+.important {
+  color: red !important;
+}
+
+.latest-important {
+  color: orange !important;
+}
+
+.inheritance {
+  color: blue;
+}
+
+.specific {
+  color: black;
+}
+
+.latest-win {
+  color: gray;
+}
+</style>
+
+<section class="inheritance">
+  <h2>Inheritance</h2>
+  <p>Both <code>h2</code> and <code>p</code> elements inherit <code>color</code> from their parent, the <code>section</code> element.</p>
+</section>
+<section class="inheritance">
+  <h2>Most specific</h2>
+  <p class="specific">Only the <code>h2</code> element inherits <code>color</code> from its parent, the <code>section</code> element.<br>
+    The <code>p</code> element is now specific.</p>
+</section>
+<section class="important inheritance">
+  <h2>!important</h2>
+  <p class="specific">Noticing the colour of the <code>h2</code> element, here is where the <code>!important</code> rule applied.<br>
+    As you can see, <code>!important</code> also follows the latest-win rule.
+</section>
+<section class="latest-win inheritance">
+  <h2>Latest-win</h2>
+  <p class="specific">Noticing the colour of the <code>h2</code> element, here is where the latest-win rule applied (i.e., the latest will override previous ones).<br>
+    You may wonder about the order of the <code>inheritance</code> and the <code>latest-win</code> classes in the <code>class</code> attribute of this section.<br>
+    Looking at the CSS tab content, you can recognise that the order of the rules is <strong>in the stylesheet section/file</strong>, not in the <code>class</code> attribute.</p>
+</section>
