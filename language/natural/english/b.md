@@ -21,6 +21,10 @@
 ### n /bɪˈheɪ.vjər/ (bì hấy vi ờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukb/ukbeg/ukbegui007.mp3)
 - (B1) the way that s/o behaves in a particular situation (hành vi).
   - *JavaScript adds behaviour to web pages.*
+## capable
+### adj /ˈkeɪ.pə.bəl/ [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcan/ukcant_017.mp3)
+- (B2) able to do things effectively and skilfully, and to achieve results (có khả năng).
+  - *XML's primary objective is to provide a standardized data storage format [capable](b.md#capable) of being "understood" and processed by all software platforms.*
 ##### compromise
 - n /kɒ'm prə\` maɪ`z/
   - (B2) an agreement (thoả hiệp)

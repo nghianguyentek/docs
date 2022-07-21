@@ -136,6 +136,10 @@ together (khả năng tương thích).
 - twisted together or closely connected to be difficult to separate (hòa quyện, thắt chặt).
   - *But just because the Internet and the WWW are firmly [intertwined](#intertwined) with each other, it doesn't mean 
 they're synonymous*
+## interweave
+### v /ˌɪn.təˈwiːv/ (in thờ wi'-v) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/uki/ukint/ukinter327.mp3)
+- to twist together or combine two or more things so that they cannot be separated easily (đan xen).
+  - *The Web is an [interwoven](u.md#interweave) "network" [comprised](c.md#comprise) of stored data and software applications.*
 ##### jurisdiction
 - n /dʒʊ.ə rɪ.s dɪ'k ʃə`n/
   - The authority of a court or official organisation to make decisions and judgments (thẩm quyền/quyền tài phán).

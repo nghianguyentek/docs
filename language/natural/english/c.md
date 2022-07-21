@@ -9,6 +9,10 @@
 ##### compromise
 - v /kɒ'm prə\` maɪ`z/
   - (C2) harm (tổn hại/gây nguy hại)
+## comprise
+### v /kəmˈpraɪz/ (kờm prái-zờ) [🔊](https://dictionary.cambridge.org/media/english/uk_pron/u/ukc/ukcom/ukcompr003.mp3)
+- (C1) to have things or people as parts or members; to consist of (bao gồm).
+  - *The Web is an [interwoven](u.md#interweave) "network" [comprised](c.md#comprise) of stored data and software applications.*
 ##### concern
 - v /kə`n sɜːn/
   - (C1) to cause worry to s/o (khiến lo lắng).
