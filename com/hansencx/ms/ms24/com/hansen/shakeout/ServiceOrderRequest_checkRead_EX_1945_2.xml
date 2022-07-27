@@ -1,0 +1,80 @@
+<xml-fragment>
+    <TransactionData>
+        <ExternalTransactionID>gen-1658774538842</ExternalTransactionID>
+        <TransactionDate>2022-07-26T06:42:18.842</TransactionDate>
+        <TransactionType>ServiceOrderRequest</TransactionType>
+        <TransactionStatus>RE</TransactionStatus>
+        <ServiceTime>Business Hours</ServiceTime>
+        <ActionType>New</ActionType>
+        <ScheduledDate>2022-07-30+12:00</ScheduledDate>
+        <ScheduledDateProvided>true</ScheduledDateProvided>
+        <UniqueServiceIdentifier>42040065986</UniqueServiceIdentifier>
+        <Recipient>CNRGYP</Recipient>
+        <RecipientDescrip/>
+        <Initiator>ACT</Initiator>
+        <Priority>Medium</Priority>
+        <Direction>I</Direction>
+        <OtherPartyID>1658774538841</OtherPartyID>
+        <ReceiptDate>2022-07-26T06:42:21.445+12:00</ReceiptDate>
+        <InitiatorRole>FRMP</InitiatorRole>
+        <ScheduledTime>01:00:00.000</ScheduledTime>
+        <AcknowledgeSLATime>2022-07-29T17:00:00.000+12:00</AcknowledgeSLATime>
+        <ServiceSLATime>2022-08-02T23:59:00.000+12:00</ServiceSLATime>
+        <ResponseSLATime>2022-08-10T17:00:00.000+12:00</ResponseSLATime>
+        <TransactionID>22554537</TransactionID>
+    </TransactionData>
+    <Premise>
+        <Hazards>
+            <Hazard>Not Known to Retailer</Hazard>
+        </Hazards>
+        <AccessInstructions>Not Known To Retailer</AccessInstructions>
+    </Premise>
+    <ServiceOrder>
+        <ServiceOrderType>Special Read</ServiceOrderType>
+        <ServiceOrderSubType>Check Read</ServiceOrderSubType>
+        <ServiceOrderNumber>1658774538841</ServiceOrderNumber>
+        <ServiceOrderLifeSupport>No</ServiceOrderLifeSupport>
+        <ServiceOrderInformation>
+            <CustomerConsultationRequired>false</CustomerConsultationRequired>
+            <ServiceType>Residential</ServiceType>
+            <AverageDailyLoad>10</AverageDailyLoad>
+            <FormReference>EWR</FormReference>
+            <FormNumber>EWR123456789012</FormNumber>
+            <CoordinationRequired>No</CoordinationRequired>
+        </ServiceOrderInformation>
+        <Notes>Put notes here</Notes>
+    </ServiceOrder>
+    <MarketParticipants>
+        <MarketParticipant>
+            <ParticipantUtility>E</ParticipantUtility>
+            <ParticipantCode>ACT</ParticipantCode>
+            <ParticipantRole>FRMP</ParticipantRole>
+        </MarketParticipant>
+    </MarketParticipants>
+    <Services>
+        <Service>
+            <Meters>
+                <Meter>
+                    <MeterNumber>GEN5274</MeterNumber>
+                </Meter>
+            </Meters>
+        </Service>
+    </Services>
+    <Contacts>
+        <Contact>
+            <ContactRole>Initiator</ContactRole>
+            <ContactName>Ms Gordon Callanan</ContactName>
+        </Contact>
+        <Contact>
+            <ContactRole>Customer</ContactRole>
+            <ContactName>Mister Mower Stokes</ContactName>
+            <ContactPhone>0413059521</ContactPhone>
+        </Contact>
+    </Contacts>
+    <Custom>
+        <Field>
+            <Name>EWR Reference Number</Name>
+            <Value>EWR123456789012</Value>
+        </Field>
+    </Custom>
+</xml-fragment>
