@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1">
+  <title>Sample 06-01</title>
+</head>
+<body>
+<textarea id="result" rows="8" cols="80"></textarea>
+<script defer>
+    document.body.onload = function () {
+        setTimeout(loadResult, 5000);
+    };
+
+    function loadResult() {
+        const req = new XMLHttpRequest();
+        req.onload = onload;
+        req.open('GET', 'https:/kihon.vn/exercise01.xml');
+        req.send();
+    }
+
+    function onload(e) {
+        console.log(e);
+        document.getElementById('result').value = e.target.responseText;
+    }
+</script>
+</body>
+</html>

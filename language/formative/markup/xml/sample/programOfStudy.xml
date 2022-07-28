@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<semesters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://kihon.vn/cs2205.xsd">
+    <semester>
+        <year>2008</year>
+        <period>Fall</period>
+        <courses>
+            <course>
+                <category>General</category>
+                <name>PHIL 101</name>
+                <goal>8</goal>
+            </course>
+            <course>
+                <category>General</category>
+                <name>ECON 201</name>
+                <goal>11</goal>
+            </course>
+            <course>
+                <category>Core</category>
+                <name>MGT 217</name>
+            </course>
+            <course>
+                <category>Major</category>
+                <name>CIS 120</name>
+            </course>
+            <course>
+                <category>Major</category>
+                <name>CIS 403</name>
+            </course>
+        </courses>
+    </semester>
+    <semester>
+        <year>2009</year>
+        <period>Spring</period>
+        <courses>
+            <course>
+                <category>Core</category>
+                <name>MGT 261</name>
+            </course>
+            <course>
+                <category>Core</category>
+                <name>MGT 325</name>
+            </course>
+            <course>
+                <category>Major</category>
+                <name>CIS 220</name>
+            </course>
+            <course>
+                <category>Major</category>
+                <name>CIS 407</name>
+            </course>
+            <course>
+                <category>Major</category>
+                <name>CIS 490</name>
+            </course>
+        </courses>
+    </semester>
+</semesters>

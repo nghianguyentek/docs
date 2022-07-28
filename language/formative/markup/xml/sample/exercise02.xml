@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://kihon.vn/cs2205.xsd">
+    <name>
+        <first>First</first>
+        <last>Last</last>
+        <middle>Middle</middle>
+    </name>
+    <occupation>Software Developer</occupation>
+    <hobbies>
+        <hobby>Coding</hobby>
+        <hobby>Aikido</hobby>
+        <hobby>Mobile Game</hobby>
+    </hobbies>
+</person>

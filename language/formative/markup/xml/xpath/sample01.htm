@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1">
+  <title>Sample 01</title>
+</head>
+<body>
+<script defer>
+    const xmlStr = `<books>
+<book>
+<name>Book 1</name>
+</book>
+<book>
+<name>Book 2</name>
+</book>
+</books>`, xml = new DOMParser().parseFromString(xmlStr, 'text/xml');
+    let xpathRet = xml.evaluate('//book', xml, null, 5);
+    alert(xpathRet.resultType);
+
+</script>
+</body>
+</html>

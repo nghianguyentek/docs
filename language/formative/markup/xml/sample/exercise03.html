@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise03</title>
+  <style>
+      * {
+          box-sizing: border-box;
+      }
+  </style>
+</head>
+<body>
+<form>
+  <input id="input" type="file" accept="text/xml">
+</form>
+<section id="result">
+</section>
+<script>
+    document.body.onload = function () {
+        document.getElementById('input').onchange = function () {
+            if (!this.files) {
+                return;
+            }
+
+            this.files[0].text()
+                .then(t => traverse(t));
+        };
+    };
+
+    const NODE_TYPES = {1: 'Element', 3: 'Text'},
+        NODE_HANDLERS = {1: examineElement, 3: examineText},
+        result = document.getElementById('result');
+
+    function traverse(t) {
+        result.innerHTML = examineNode(new DOMParser().parseFromString(t, 'text/xml').documentElement);
+    }
+
+    function examineNode(n) {
+        return NODE_HANDLERS[n.nodeType](n);
+    }
+
+    function examineElement(e) {
+        let str = `<span>[${NODE_TYPES[1]}] ${e.nodeName}</span><ul>`;
+        for (let i = 0, cl = e.childNodes.length; i < cl; i++) {
+            str += '<li>' + examineNode(e.childNodes[i]);
+        }
+
+        str += '</ul>';
+        return str;
+    }
+
+    function examineText(t) {
+        return `[${NODE_TYPES[3]}] <mark>${t.nodeValue.replaceAll(' ', '[ ]').replaceAll('\n', '[br]')}</mark>`;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="exercises">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="date" type="xs:date" />
+                <xs:element name="item" type="xs:string" minOccurs="2" maxOccurs="2"/>
+            </xs:sequence>
+            <xs:attribute name="number" type="xs:nonNegativeInteger" fixed="1" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="person">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="first" type="xs:string"/>
+                            <xs:element name="last" type="xs:string"/>
+                            <xs:element name="middle" type="xs:string" nillable="true"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="occupation" type="xs:string"/>
+                <xs:element name="hobbies">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="hobby" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="semesters">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="semester" minOccurs="2" maxOccurs="2">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="year">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:nonNegativeInteger">
+                                        <xs:enumeration value="2008"/>
+                                        <xs:enumeration value="2009"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="period">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Spring"/>
+                                        <xs:enumeration value="Fall"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="courses">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="course" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="category">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:string">
+                                                                <xs:enumeration value="General"/>
+                                                                <xs:enumeration value="Core"/>
+                                                                <xs:enumeration value="Major"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                    <xs:element name="name" type="xs:string"/>
+                                                    <xs:element name="goal" minOccurs="0">
+                                                        <xs:simpleType>
+                                                            <xs:restriction base="xs:nonNegativeInteger">
+                                                                <xs:enumeration value="8"/>
+                                                                <xs:enumeration value="11"/>
+                                                            </xs:restriction>
+                                                        </xs:simpleType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
