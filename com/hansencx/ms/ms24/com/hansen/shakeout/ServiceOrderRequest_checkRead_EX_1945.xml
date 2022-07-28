@@ -1,0 +1,86 @@
+<xml-fragment>
+    <TransactionData>
+        <ExternalTransactionID>gen-1640742107533</ExternalTransactionID>
+        <TransactionDate>2021-12-29T00:41:47</TransactionDate>
+        <TransactionType>ServiceOrderRequest</TransactionType>
+        <TransactionStatus>PR</TransactionStatus>
+        <ServiceTime>Business Hours</ServiceTime>
+        <ActionType>New</ActionType>
+        <ScheduledDate>2022-01-01+13:00</ScheduledDate>
+        <ScheduledDateProvided>true</ScheduledDateProvided>
+        <UniqueServiceIdentifier>42040050930</UniqueServiceIdentifier>
+        <Recipient>ESSENTIAL</Recipient>
+        <RecipientDescrip/>
+        <Initiator>AGLQLD1</Initiator>
+        <Priority>Medium</Priority>
+        <Direction>I</Direction>
+        <OtherPartyID>1640741930328</OtherPartyID>
+        <ReceiptDate>2021-12-29T14:49:39.234+13:00</ReceiptDate>
+        <InitiatorRole>FRMP</InitiatorRole>
+        <ScheduledTime>01:00:00.000</ScheduledTime>
+        <AcknowledgeSLATime>2022-01-03T17:00:00.000+13:00</AcknowledgeSLATime>
+        <ServiceSLATime>2022-01-04T23:59:00.000+13:00</ServiceSLATime>
+        <ResponseSLATime>2022-01-12T17:00:00.000+13:00</ResponseSLATime>
+        <TransactionID>22547375</TransactionID>
+    </TransactionData>
+    <Premise>
+        <Hazards>
+            <Hazard>Not Known to Retailer</Hazard>
+        </Hazards>
+        <AccessInstructions>Not Known To Retailer</AccessInstructions>
+    </Premise>
+    <ServiceOrder>
+        <ServiceOrderType>Special Read</ServiceOrderType>
+        <ServiceOrderSubType>Check Read</ServiceOrderSubType>
+        <ServiceOrderNumber>1640741930328</ServiceOrderNumber>
+        <ServiceOrderLifeSupport>No</ServiceOrderLifeSupport>
+        <ServiceOrderInformation>
+            <CustomerConsultationRequired>false</CustomerConsultationRequired>
+            <ServiceType>Residential</ServiceType>
+            <AverageDailyLoad>10</AverageDailyLoad>
+            <FormReference>EWR</FormReference>
+            <FormNumber>EWR123456789012</FormNumber>
+            <CoordinationRequired>No</CoordinationRequired>
+        </ServiceOrderInformation>
+        <Notes>Put notes here</Notes>
+    </ServiceOrder>
+    <MarketParticipants>
+        <MarketParticipant>
+            <ParticipantUtility>E</ParticipantUtility>
+            <ParticipantCode>AGLQLD1</ParticipantCode>
+            <ParticipantRole>FRMP</ParticipantRole>
+        </MarketParticipant>
+    </MarketParticipants>
+    <Services>
+        <Service>
+            <Meters>
+                <Meter>
+                    <MeterNumber>GENV807878</MeterNumber>
+                </Meter>
+            </Meters>
+        </Service>
+    </Services>
+    <Contacts>
+        <Contact>
+            <ContactRole>Initiator</ContactRole>
+            <ContactName>Ms Gordon Callanan</ContactName>
+        </Contact>
+        <Contact>
+            <ContactRole>Customer</ContactRole>
+            <ContactName>Mister Mower Stokes</ContactName>
+            <ContactPhone>0413059521</ContactPhone>
+        </Contact>
+    </Contacts>
+    <Custom>
+        <Field>
+            <Name>EWR Reference Number</Name>
+            <Value>EWR123456789012</Value>
+        </Field>
+    </Custom>
+    <Event>
+        <Status>Reject</Status>
+        <Severity>Error</Severity>
+        <EventCode>1945</EventCode>
+        <EventDescription>Initiator is not permitted to raise this service order type</EventDescription>
+    </Event>
+</xml-fragment>

@@ -74,5 +74,18 @@ Sort lines of text files.
 ```shell
 du -ad 1 / 2>/dev/null | sort -nrk 1
 ```
+## `sudo` command
+Execute commands as another user.
+#### Attributes
+| Syntax | Description               |
+|--------|---------------------------|
+| -l     | list all allowed commands |
+|        |                           |
+|        |                           |
+#### Examples
+- List all allowed commands of the current user.
+```shell
+sudo -l
+```
 
 
