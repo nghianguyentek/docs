@@ -51,6 +51,7 @@ Having a specific attribute
 - `*`: all elements
 - `@*`: all attributes
 - `node()`: any node
+- `text()`: all text nodes
 ## Select multiple paths
 To select multiple paths, we use the `|` (pipe sign).
 ### Example
